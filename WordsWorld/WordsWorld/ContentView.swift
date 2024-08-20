@@ -77,11 +77,13 @@ struct ContentView: View {
                 .foregroundColor(.blue)
                 .padding()
 
-            Text("Current Status: \(wordStatuses[currentIndex])")
-                .font(.footnote)
-                .foregroundColor(.red)
-                .padding()
+            
+//            Text("Current Status: \(wordStatuses[currentIndex])")
+//                .font(.footnote)
+//                .foregroundColor(.red)
+//                .padding()
 
+            
             HStack {
                 Button(action: {
                     // 播放当前单词的朗读
