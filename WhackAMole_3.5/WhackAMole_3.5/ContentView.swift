@@ -6,12 +6,12 @@ struct ContentView: View {
     @State private var showPlayAgain: Bool = false
     @State private var timer: Timer?
     @State private var gameTimer: Timer?
-    @State private var remainingTime: Int = 30 // 游戏时间，单位为秒
+    @State private var remainingTime: Int = 10 // 游戏时间，单位为秒
     @State private var lastMoleIndex: Int? = nil // 记录上一次的地鼠位置索引
     
     let gridSize = 3
     let moleAppearTime = 1.0 // 每秒出现一个地鼠
-    let moleVisibleTime = 0.8 // 每个地鼠可见时间
+    let moleVisibleTime = 0.5 // 每个地鼠可见时间
     
     var body: some View {
         VStack {
@@ -41,23 +41,51 @@ struct ContentView: View {
             }
             .padding()
             
-            if showPlayAgain {
-                Button(action: resetGame) {
-                    Text("Play Again")
-                        .font(.title)
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .clipShape(Capsule())
-                }
+            Button(action: resetGame) {
+                Image(systemName: "restart.circle")
+                    .foregroundColor(.red)
+                    .frame(width: 12, height: 12)
+                Text("Play Again")
+                    .font(.title2)
+                    .frame(width: 120, height:30)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .clipShape(Capsule())
             }
+            
+            Button(action: {
+                score += 1;
+            }) {
+                Image(systemName: "plus.circle")
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                Text("Add score")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .frame(width: 120, height:30)
+                    .background(.blue)
+                    .clipShape(Capsule())
+            }
+            Button(action: {
+                score = 0
+            }) {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.red)
+                Text("clean score")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .frame(width: 120, height: 30)
+                    .background(.blue)
+                    .clipShape(Capsule())
+                    .padding(5)
+            }
+
         }
         .onAppear(perform: startGame)
     }
     
     func startGame() {
         score = 0
-        remainingTime = 30
+        remainingTime = 10
         showPlayAgain = false
         lastMoleIndex = nil
         startMoleTimer()
