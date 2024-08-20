@@ -15,6 +15,7 @@
 		EAF2ABF72C7437170002C97A /* WordsWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2ABF62C7437170002C97A /* WordsWorldTests.swift */; };
 		EAF2AC012C7437170002C97A /* WordsWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2AC002C7437170002C97A /* WordsWorldUITests.swift */; };
 		EAF2AC032C7437170002C97A /* WordsWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2AC022C7437170002C97A /* WordsWorldUITestsLaunchTests.swift */; };
+		EAF2AC102C747B430002C97A /* words_cet4.json in Resources */ = {isa = PBXBuildFile; fileRef = EAF2AC0F2C747B430002C97A /* words_cet4.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EAF2ABFC2C7437170002C97A /* WordsWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2AC002C7437170002C97A /* WordsWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWorldUITests.swift; sourceTree = "<group>"; };
 		EAF2AC022C7437170002C97A /* WordsWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAF2AC0F2C747B430002C97A /* words_cet4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words_cet4.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				EAF2ABE32C7437160002C97A /* WordsWorldApp.swift */,
 				EAF2ABE52C7437160002C97A /* ContentView.swift */,
+				EAF2AC0F2C747B430002C97A /* words_cet4.json */,
 				EAF2ABE72C7437160002C97A /* Item.swift */,
 				EAF2ABE92C7437170002C97A /* Assets.xcassets */,
 				EAF2ABEB2C7437170002C97A /* Preview Content */,
@@ -236,6 +239,7 @@
 			files = (
 				EAF2ABED2C7437170002C97A /* Preview Assets.xcassets in Resources */,
 				EAF2ABEA2C7437170002C97A /* Assets.xcassets in Resources */,
+				EAF2AC102C747B430002C97A /* words_cet4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
