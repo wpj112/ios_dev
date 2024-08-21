@@ -8,36 +8,7 @@
 import SwiftUI
 import AVFoundation
 
-// 模型结构
-struct Word: Identifiable, Codable {
-    var id = UUID()  // 自动生成 UUID
-    var word: String
-    var meaning: String
-    var imageName: String
-    
-    // 自定义 Decodable 实现
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.word = try container.decode(String.self, forKey: .word)
-        self.meaning = try container.decode(String.self, forKey: .meaning)
-        self.imageName = try container.decode(String.self, forKey: .imageName)
-        self.id = UUID()  // 手动生成 UUID
-    }
-    
-    // 默认初始化
-    init(word: String, meaning: String, imageName: String) {
-        self.word = word
-        self.meaning = meaning
-        self.imageName = imageName
-    }
-}
 
-struct LearningSession: Identifiable, Codable {
-    var id = UUID()
-    var date: Date
-    var wordCount: Int
-    var duration: Int
-}
 
 // 日期格式扩展
 extension DateFormatter {
@@ -127,12 +98,14 @@ struct WordLearningView: View {
     @State private var isCorrect = false
     @State private var progress = 0
     @State private var synthesizer = AVSpeechSynthesizer()
+    @StateObject private var wordManager: WordManager = WordManager()
     @Environment(\.presentationMode) var presentationMode
     var words: [Word] // 从上一级页面传入的单词数据
     
-    var filteredWords: [Word] {
-        Array(words.prefix(selectedWordCount))
-    }
+    //var filteredWords: [Word] {
+    //    Array(words.prefix(selectedWordCount))
+    //}
+    @State private var filteredWords: [Word] = []
     
     let gridColumns: [GridItem] = [
         GridItem(.flexible()),
@@ -142,7 +115,7 @@ struct WordLearningView: View {
     var body: some View {
         VStack {
             if currentIndex < filteredWords.count && !filteredWords.isEmpty {
-                Text("What is the meaning of: \(filteredWords[currentIndex].word)?")
+                Text(filteredWords[currentIndex].word)
                     .font(.title)
                     .padding()
 
@@ -152,8 +125,11 @@ struct WordLearningView: View {
                 }) {
                     Image(systemName: "speaker.wave.2.fill")
                         .font(.title)
+                        .fontWeight(.bold)
                         .padding()
                 }
+                Text("has reviewed count: \(wordManager.getReviewCount(for: filteredWords[currentIndex]))")
+                    .font(.title3)
 
                 // 选项的九宫格布局
                 LazyVGrid(columns: gridColumns, spacing: 20) {
@@ -205,6 +181,7 @@ struct WordLearningView: View {
             }
         }
         .onAppear {
+            filteredWords = selectRandomWords(from: words, count: selectedWordCount)
             if !filteredWords.isEmpty {
                 generateOptions()
                 speak(word: filteredWords[currentIndex].word)
@@ -212,6 +189,11 @@ struct WordLearningView: View {
         }
         .navigationTitle("Learning")
         .padding()
+    }
+    // 从原始数组中随机选择指定数量的元素
+    private func selectRandomWords(from array: [Word], count: Int) -> [Word] {
+        let shuffledArray = array.shuffled()
+        return Array(shuffledArray.prefix(count))
     }
     
     private func generateOptions() {
@@ -233,6 +215,9 @@ struct WordLearningView: View {
     private func goToNextWord() {
         selectedAnswer = nil
         showResult = false
+        //if(currentIndex < filteredWords.count) {
+            wordManager.incrementReviewCount(for: filteredWords[currentIndex])
+        //}
         currentIndex += 1
         if currentIndex < filteredWords.count {
             generateOptions()
@@ -259,6 +244,67 @@ struct WordLearningView: View {
         )
         learningSessions.append(session)
         presentationMode.wrappedValue.dismiss()
+    }
+}
+
+class WordManager: ObservableObject {
+    @Published var words: [WordRecode] = []
+    private let fileName = "words_recode.json"
+
+    init() {
+        loadWordsFromFile()
+    }
+
+    // 获取文件路径
+    private func getDocumentsDirectory() -> URL {
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+    }
+
+    private func getFilePath() -> URL {
+        getDocumentsDirectory().appendingPathComponent(fileName)
+    }
+
+    // 从文件加载单词数据
+    func loadWordsFromFile() {
+        let fileURL = getFilePath()
+        if let data = try? Data(contentsOf: fileURL) {
+            if let decodedWords = try? JSONDecoder().decode([WordRecode].self, from: data) {
+                words = decodedWords
+                return
+            }
+        }
+        // 如果文件不存在或数据解码失败，加载默认数据
+        words = [
+            WordRecode(text: "Hello", reviewCount: 0, state: "no"),
+            WordRecode(text: "World", reviewCount: 0, state: "no")
+        ]
+    }
+
+    // 将单词数据保存到文件
+    func saveWordsToFile() {
+        let fileURL = getFilePath()
+        if let encodedData = try? JSONEncoder().encode(words) {
+            try? encodedData.write(to: fileURL)
+        }
+    }
+    
+    //获取背诵数次
+    func getReviewCount(for word: Word) -> Int{
+        if let index = words.firstIndex(where: { $0.text == word.word }) {
+            return words[index].reviewCount;
+        }else{
+            return 0;
+        }
+    }
+
+    // 更新背诵次数并保存
+    func incrementReviewCount(for word: Word) {
+        if let index = words.firstIndex(where: { $0.text == word.word }) {
+            words[index].reviewCount += 1
+        }else {
+            words.append(WordRecode(text: word.word, reviewCount: 1, state: "no"))
+        }
+        saveWordsToFile()
     }
 }
 
