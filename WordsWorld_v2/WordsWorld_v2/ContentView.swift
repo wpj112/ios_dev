@@ -210,6 +210,13 @@ struct WordLearningView: View {
     private func checkAnswer() {
         isCorrect = selectedAnswer == correctAnswer.meaning
         showResult = true
+        if isCorrect {
+            speak(word:"good")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                goToNextWord()
+            }
+        }
+
     }
     
     private func goToNextWord() {
@@ -275,8 +282,8 @@ class WordManager: ObservableObject {
         }
         // 如果文件不存在或数据解码失败，加载默认数据
         words = [
-            WordRecode(text: "Hello", reviewCount: 0, state: "no"),
-            WordRecode(text: "World", reviewCount: 0, state: "no")
+            WordRecode(text: "Hello", reviewCount: 0, corectCount: 0, state: "no"),
+            WordRecode(text: "World", reviewCount: 0, corectCount: 0, state: "no")
         ]
     }
 
@@ -302,7 +309,7 @@ class WordManager: ObservableObject {
         if let index = words.firstIndex(where: { $0.text == word.word }) {
             words[index].reviewCount += 1
         }else {
-            words.append(WordRecode(text: word.word, reviewCount: 1, state: "no"))
+            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 0, state: "no"))
         }
         saveWordsToFile()
     }

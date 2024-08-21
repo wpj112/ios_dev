@@ -52,5 +52,6 @@ struct WordRecode: Identifiable, Codable {
     let id = UUID()
     let text: String
     var reviewCount: Int // 背诵次数
+    var corectCount: Int // 正确次数
     var state: String //背诵状态
 }
