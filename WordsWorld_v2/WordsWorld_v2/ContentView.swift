@@ -241,8 +241,13 @@ struct WordLearningView: View {
     }
     
     private func speak(word: String) {
+        for voice in AVSpeechSynthesisVoice.speechVoices() {
+            print(voice.name, voice.identifier)
+        }
         let utterance = AVSpeechUtterance(string: word)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+//        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        utterance.voice = AVSpeechSynthesisVoice(identifier: "com.apple.speech.synthesis.voice.Zarvox")
+        utterance.pitchMultiplier = 1.2;
         synthesizer.speak(utterance)
     }
     
