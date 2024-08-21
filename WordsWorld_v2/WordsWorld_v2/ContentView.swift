@@ -139,7 +139,7 @@ struct WordLearningView: View {
                             checkAnswer()
                         }) {
                             VStack {
-                                Image(systemName: option.imageName)
+                                Image(option.imageName)
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 70, height: 70)
