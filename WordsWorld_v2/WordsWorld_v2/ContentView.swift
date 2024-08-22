@@ -4,6 +4,7 @@
 //
 //  Created by 魏平杰 on 2024/8/21.
 //
+//word image from:https://quizlet.com/cn/814267800/raz%E5%8D%95%E8%AF%8D-flash-cards/
 
 import SwiftUI
 import AVFoundation
@@ -96,6 +97,7 @@ struct WordLearningView: View {
     @State private var selectedAnswer: String? = nil
     @State private var showResult = false
     @State private var isCorrect = false
+    @State private var tryCount = 0
     @State private var progress = 0
     @State private var synthesizer = AVSpeechSynthesizer()
     @StateObject private var wordManager: WordManager = WordManager()
@@ -115,22 +117,22 @@ struct WordLearningView: View {
     var body: some View {
         VStack {
             if currentIndex < filteredWords.count && !filteredWords.isEmpty {
-                Text(filteredWords[currentIndex].word)
-                    .font(.title)
-                    .padding()
-
-                // 朗读图标和单词发音
-                Button(action: {
-                    speak(word: filteredWords[currentIndex].word)
-                }) {
-                    Image(systemName: "speaker.wave.2.fill")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding()
-                }
-                Text("has reviewed count: \(wordManager.getReviewCount(for: filteredWords[currentIndex]))")
-                    .font(.title3)
-
+                HStack(alignment: .center, spacing: 20){
+                    Text(filteredWords[currentIndex].word)
+                        .font(.system(size: 40))
+                    // 朗读图标和单词发音
+                    Button(action: {
+                        speak(word: filteredWords[currentIndex].word)
+                    }) {
+                        Image(systemName: "speaker.wave.2.fill")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding()
+                    }
+                }.frame(alignment: .topLeading)
+                    Text("has reviewed count: \(wordManager.getReviewCount(for: filteredWords[currentIndex]))")
+                        .font(.title3)
+                    
                 // 选项的九宫格布局
                 LazyVGrid(columns: gridColumns, spacing: 20) {
                     ForEach(options, id: \.id) { option in
@@ -142,19 +144,26 @@ struct WordLearningView: View {
                                 Image(option.imageName)
                                     .resizable()
                                     .scaledToFit()
-                                    .frame(width: 70, height: 70)
-                                Text(option.meaning)
-                                    .padding(.top, 5)
+                                    .scaleEffect(1.1)
+                                    .cornerRadius(5.0)
+//                                Text(option.meaning)
+//                                    .padding(.top, 5)
                             }
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .padding()
-                            .background(Color.gray.opacity(0.1))
                             .cornerRadius(10)
+                            .padding(.top, 5)
+                            .padding(.leading, 5)
+                            .padding(.trailing, 5)
+                            .padding(.bottom, 5)
+                            .shadow(color: .gray, radius: 6, x: 0, y: 3)
                         }
                         .disabled(showResult)
                     }
                 }
                 .padding()
+                .background(Color.gray.opacity(0.2))
+                .cornerRadius(10)
+
 
                 // 显示当前进度
                 Text("Progress: \(currentIndex + 1)/\(filteredWords.count)")
@@ -189,6 +198,7 @@ struct WordLearningView: View {
         }
         .navigationTitle("Learning")
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
     // 从原始数组中随机选择指定数量的元素
     private func selectRandomWords(from array: [Word], count: Int) -> [Word] {
@@ -209,12 +219,17 @@ struct WordLearningView: View {
     
     private func checkAnswer() {
         isCorrect = selectedAnswer == correctAnswer.meaning
-        showResult = true
         if isCorrect {
             speak(word:"good")
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 goToNextWord()
             }
+        }else {
+            tryCount += 1;
+            if(tryCount >= 3){
+                showResult = true
+            }
+            speak(word:"try again")
         }
 
     }
@@ -222,6 +237,7 @@ struct WordLearningView: View {
     private func goToNextWord() {
         selectedAnswer = nil
         showResult = false
+        tryCount = 0
         //if(currentIndex < filteredWords.count) {
             wordManager.incrementReviewCount(for: filteredWords[currentIndex])
         //}
@@ -256,7 +272,7 @@ struct WordLearningView: View {
 
 class WordManager: ObservableObject {
     @Published var words: [WordRecode] = []
-    private let fileName = "words_recode.json"
+    private let fileName = "words_record.json"
 
     init() {
         loadWordsFromFile()
@@ -324,3 +340,10 @@ struct WordLearningAppMain: App {
         }
     }
 }
+
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        WordLearningApp()
+//    }
+//}
+
