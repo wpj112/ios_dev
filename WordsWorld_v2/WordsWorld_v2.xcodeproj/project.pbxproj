@@ -16,6 +16,7 @@
 		EAF2AC3B2C757EA60002C97A /* WordsWorld_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2AC3A2C757EA60002C97A /* WordsWorld_v2UITests.swift */; };
 		EAF2AC3D2C757EA60002C97A /* WordsWorld_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2AC3C2C757EA60002C97A /* WordsWorld_v2UITestsLaunchTests.swift */; };
 		EAF2AC4A2C7585140002C97A /* words_cc.json in Resources */ = {isa = PBXBuildFile; fileRef = EAF2AC492C7585140002C97A /* words_cc.json */; };
+		EAF2AC4C2C7715B40002C97A /* words_record_list_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2AC4B2C7715B40002C97A /* words_record_list_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		EAF2AC3A2C757EA60002C97A /* WordsWorld_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWorld_v2UITests.swift; sourceTree = "<group>"; };
 		EAF2AC3C2C757EA60002C97A /* WordsWorld_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWorld_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EAF2AC492C7585140002C97A /* words_cc.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words_cc.json; sourceTree = "<group>"; };
+		EAF2AC4B2C7715B40002C97A /* words_record_list_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = words_record_list_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EAF2AC212C757EA50002C97A /* Item.swift */,
 				EAF2AC232C757EA60002C97A /* Assets.xcassets */,
 				EAF2AC252C757EA60002C97A /* Preview Content */,
+				EAF2AC4B2C7715B40002C97A /* words_record_list_view.swift */,
 			);
 			path = WordsWorld_v2;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF2AC202C757EA50002C97A /* ContentView.swift in Sources */,
+				EAF2AC4C2C7715B40002C97A /* words_record_list_view.swift in Sources */,
 				EAF2AC222C757EA50002C97A /* Item.swift in Sources */,
 				EAF2AC1E2C757EA50002C97A /* WordsWorld_v2App.swift in Sources */,
 			);

@@ -100,7 +100,7 @@ struct WordLearningView: View {
     @State private var tryCount = 0
     @State private var progress = 0
     @State private var synthesizer = AVSpeechSynthesizer()
-    @StateObject private var wordManager: WordManager = WordManager()
+    @EnvironmentObject var wordManager: WordManager
     @Environment(\.presentationMode) var presentationMode
     var words: [Word] // 从上一级页面传入的单词数据
     
@@ -221,6 +221,8 @@ struct WordLearningView: View {
         isCorrect = selectedAnswer == correctAnswer.meaning
         if isCorrect {
             speak(word:"good")
+            wordManager.incrementCorrectCount(for: filteredWords[currentIndex])
+
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 goToNextWord()
             }
@@ -254,8 +256,11 @@ struct WordLearningView: View {
         }
         let utterance = AVSpeechUtterance(string: word)
 //        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-        utterance.voice = AVSpeechSynthesisVoice(identifier: "com.apple.speech.synthesis.voice.Zarvox")
+        //com.apple.voice.compact.en-US.Samantha
+        //com.apple.speech.synthesis.voice.Zarvox rebote
+        utterance.voice = AVSpeechSynthesisVoice(identifier: "com.apple.voice.compact.en-US.Samantha")
         utterance.pitchMultiplier = 1.2;
+        utterance.rate = 0.4
         synthesizer.speak(utterance)
     }
     
@@ -329,6 +334,36 @@ class WordManager: ObservableObject {
         }
         saveWordsToFile()
     }
+    
+    // 更新正确次数并保存
+    func incrementCorrectCount(for word: Word) {
+        if let index = words.firstIndex(where: { $0.text == word.word }) {
+            words[index].corectCount += 1
+        }else {
+            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 1, state: "no"))
+        }
+        saveWordsToFile()
+    }
+}
+
+// 主应用界面
+struct ContentView: View {
+    @StateObject var wordManager = WordManager()
+
+    var body: some View {
+        TabView {
+            WordLearningApp ()
+                .tabItem {
+                    Label("Main", systemImage: "book.fill")
+                }
+            
+            RecordsTabView()
+                .tabItem {
+                    Label("Records", systemImage: "list.bullet")
+                }
+        }
+        .environmentObject(wordManager)
+    }
 }
 
 // 启动应用的入口
@@ -336,7 +371,7 @@ class WordManager: ObservableObject {
 struct WordLearningAppMain: App {
     var body: some Scene {
         WindowGroup {
-            WordLearningApp()
+            ContentView()
         }
     }
 }
