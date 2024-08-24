@@ -52,22 +52,23 @@ struct WordLearningApp: View {
                 VStack {
                     HStack{
                         Text("Set word count:")
+                        Spacer()
                         Stepper(value: $selectedWordCount, in: 10...50, step: 10) {
                             Text("\(selectedWordCount) words")
                         }
+                    }.frame(maxWidth: .infinity,maxHeight: 50, alignment: .leading) // 使 HStack 左对齐
                         .padding()
-                    }
                     
                     HStack{
                         //选择Level
                         Text("Set raz level:")
+                        Spacer()
                         Picker("Select an level", selection: $selectedRazLevel) {
                             ForEach(razLevels, id: \.self) { level in
                                 Text(level)
                             }
                         }
                         .pickerStyle(MenuPickerStyle()) // 可以尝试其他风格如 WheelPickerStyle
-                        .padding()
                         .onChange(of: selectedRazLevel) {
                             for dict in razDictList{
                                 if(dict.dictName == selectedRazLevel) {
@@ -77,7 +78,8 @@ struct WordLearningApp: View {
                         }
                         //.background(Color(.gray))
                         //.frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                    }
+                    }.frame(maxWidth: .infinity, alignment: .leading) // 使 HStack 左对齐
+                        .padding()
                     NavigationLink(destination: WordLearningView(selectedWordCount: $selectedWordCount, learningSessions: $learningSessions, words: words)) {
                         Text("Start Learning")
                             .padding()
@@ -124,9 +126,23 @@ struct WordLearningApp: View {
     }
 }
 
+// 自定义形状
+struct Top80PercentShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        let height = rect.height
+        let top80Percent = height * 0.75
+        
+        path.addRect(CGRect(x: rect.minX, y: rect.minY, width: rect.width, height: top80Percent))
+        return path
+    }
+}
+
+
 // 学习界面
 struct WordLearningView: View {
     @Binding var selectedWordCount: Int
+    @State private var hasLoaded = false
     @Binding var learningSessions: [LearningSession]
     @State private var currentIndex = 0
     @State private var correctAnswer: Word = Word(word: "", meaning: "", imageName: "")
@@ -183,25 +199,23 @@ struct WordLearningView: View {
                                 if let imagePath = Bundle.main.path(forResource: (option.imageName as NSString).deletingPathExtension, ofType: "png"),
                                    let uiImage = UIImage(contentsOfFile: imagePath) {
                                     Image(uiImage: uiImage)
-                                        //.resizable()
-                                        //.scaledToFit()
                                         .resizable()
+                                        .scaledToFit()
                                         .scaledToFill()
-                                        .scaleEffect(0.9)
-                                        //.frame(height: 120) // 控制图片的总高度
-                                        //.clipped() // 裁剪图片
-                                        //.frame(height: 120 * 0.75) // 只显示上部 75%
+                                        .scaleEffect(0.85)
+                                        .clipShape(Top80PercentShape()) // 只显示上半部分
+                                        //.frame(alignment: .topLeading) // 控制图片的总高度
+                            //            .frame(height: 120 * 0.75) // 只显示上部 75%
+                             //           .clipped() // 裁剪图片
                                         .cornerRadius(5.0)
-                                    //                                Text(option.meaning)
-                                    //                                    .padding(.top, 5)
+//                                    Text(option.meaning)
+//                                        .padding(.top, 5)
                                 }
                             }
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                            .frame(maxWidth: .infinity, maxHeight: .infinity)
                             .cornerRadius(10)
-                            .padding(.top, 5)
                             .padding(.leading, 5)
                             .padding(.trailing, 5)
-                            .padding(.bottom, 5)
                             .shadow(color: .gray, radius: 6, x: 0, y: 3)
                         }
                         .disabled(showResult)
@@ -237,10 +251,13 @@ struct WordLearningView: View {
             }
         }
         .onAppear {
-            filteredWords = selectRandomWords(from: words, count: selectedWordCount)
-            if !filteredWords.isEmpty {
-                generateOptions()
-                speak(word: filteredWords[currentIndex].word)
+            if !hasLoaded {
+                filteredWords = selectRandomWords(from: words, count: selectedWordCount)
+                if !filteredWords.isEmpty {
+                    generateOptions()
+                    speak(word: filteredWords[currentIndex].word)
+                }
+                hasLoaded = true;
             }
         }
         .navigationTitle("Learning")

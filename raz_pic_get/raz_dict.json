@@ -388,7 +388,7 @@
         "imageName": "inside.png"
     },
     {
-        "word": "ice_1",
+        "word": "ice cream",
         "meaning": "ICE_1",
         "imageName": "ice_1.png"
     },
@@ -3135,11 +3135,6 @@
         "word": "make",
         "meaning": "制作",
         "imageName": "make.png"
-    },
-    {
-        "word": ".DS_Store",
-        "meaning": ".ds_store",
-        "imageName": ".DS_Store"
     },
     {
         "word": "bog",
