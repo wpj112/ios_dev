@@ -22,7 +22,10 @@ extension DateFormatter {
 
 // 主应用视图
 struct WordLearningApp: View {
+    @State private var razDictList: [RazDict] = []
     @State private var words: [Word] = []
+    @State private var razLevels: [String] = []
+    @State private var selectedRazLevel = "raz_C"
     @State private var selectedWordCount = 10
     @State private var learningSessions: [LearningSession] = []
 
@@ -47,12 +50,34 @@ struct WordLearningApp: View {
 
                 // 设置学习单词数和开始学习按钮
                 VStack {
-                    Text("Set word count:")
-                    Stepper(value: $selectedWordCount, in: 10...50, step: 10) {
-                        Text("\(selectedWordCount) words")
+                    HStack{
+                        Text("Set word count:")
+                        Stepper(value: $selectedWordCount, in: 10...50, step: 10) {
+                            Text("\(selectedWordCount) words")
+                        }
+                        .padding()
                     }
-                    .padding()
-
+                    
+                    HStack{
+                        //选择Level
+                        Text("Set raz level:")
+                        Picker("Select an level", selection: $selectedRazLevel) {
+                            ForEach(razLevels, id: \.self) { level in
+                                Text(level)
+                            }
+                        }
+                        .pickerStyle(MenuPickerStyle()) // 可以尝试其他风格如 WheelPickerStyle
+                        .padding()
+                        .onChange(of: selectedRazLevel) {
+                            for dict in razDictList{
+                                if(dict.dictName == selectedRazLevel) {
+                                    words = dict.wordList
+                                }
+                            }
+                        }
+                        //.background(Color(.gray))
+                        //.frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                    }
                     NavigationLink(destination: WordLearningView(selectedWordCount: $selectedWordCount, learningSessions: $learningSessions, words: words)) {
                         Text("Start Learning")
                             .padding()
@@ -72,14 +97,26 @@ struct WordLearningApp: View {
 
     // 从文件加载单词
     func loadWordsFromFile() {
-        guard let url = Bundle.main.url(forResource: "words_cc", withExtension: "json") else {
+        guard let url = Bundle.main.url(forResource: "raz_dict", withExtension: "json") else {
             print("Word file not found")
             return
         }
 
         do {
             let data = try Data(contentsOf: url)
-            words = try JSONDecoder().decode([Word].self, from: data)
+            razDictList = try JSONDecoder().decode([RazDict].self, from: data)
+            //words = razDictList[0].wordList
+            
+            razLevels.removeAll();
+            for dict in razDictList {
+                razLevels.append(dict.dictName)
+            }
+            for dict in razDictList{
+                if(dict.dictName == selectedRazLevel) {
+                    words = dict.wordList
+                }
+            }
+
             print("Loaded \(words.count) words from file.")
         } catch {
             print("Failed to load words: \(error)")
@@ -134,20 +171,30 @@ struct WordLearningView: View {
                         .font(.title3)
                     
                 // 选项的九宫格布局
-                LazyVGrid(columns: gridColumns, spacing: 20) {
+                LazyVGrid(columns: gridColumns, spacing: 10) {
                     ForEach(options, id: \.id) { option in
                         Button(action: {
                             selectedAnswer = option.meaning
                             checkAnswer()
                         }) {
                             VStack {
-                                Image(option.imageName)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .scaleEffect(1.1)
-                                    .cornerRadius(5.0)
-//                                Text(option.meaning)
-//                                    .padding(.top, 5)
+                            //    Image(uiImage: UIImage(named: "Resource/\(option.imageName)"))
+                                //if let uiImage = UIImage(named:  "Resources/add.png)") {
+                                if let imagePath = Bundle.main.path(forResource: (option.imageName as NSString).deletingPathExtension, ofType: "png"),
+                                   let uiImage = UIImage(contentsOfFile: imagePath) {
+                                    Image(uiImage: uiImage)
+                                        //.resizable()
+                                        //.scaledToFit()
+                                        .resizable()
+                                        .scaledToFill()
+                                        .scaleEffect(0.9)
+                                        //.frame(height: 120) // 控制图片的总高度
+                                        //.clipped() // 裁剪图片
+                                        //.frame(height: 120 * 0.75) // 只显示上部 75%
+                                        .cornerRadius(5.0)
+                                    //                                Text(option.meaning)
+                                    //                                    .padding(.top, 5)
+                                }
                             }
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                             .cornerRadius(10)
@@ -251,9 +298,9 @@ struct WordLearningView: View {
     }
     
     private func speak(word: String) {
-        for voice in AVSpeechSynthesisVoice.speechVoices() {
-            print(voice.name, voice.identifier)
-        }
+        //for voice in AVSpeechSynthesisVoice.speechVoices() {
+        //    print(voice.name, voice.identifier)
+        //}
         let utterance = AVSpeechUtterance(string: word)
 //        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
         //com.apple.voice.compact.en-US.Samantha
@@ -280,7 +327,7 @@ class WordManager: ObservableObject {
     private let fileName = "words_record.json"
 
     init() {
-        loadWordsFromFile()
+        loadWordsRecordFromFile()
     }
 
     // 获取文件路径
@@ -293,7 +340,7 @@ class WordManager: ObservableObject {
     }
 
     // 从文件加载单词数据
-    func loadWordsFromFile() {
+    func loadWordsRecordFromFile() {
         let fileURL = getFilePath()
         if let data = try? Data(contentsOf: fileURL) {
             if let decodedWords = try? JSONDecoder().decode([WordRecode].self, from: data) {

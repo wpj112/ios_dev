@@ -41,6 +41,27 @@ struct Word: Identifiable, Codable {
     }
 }
 
+struct RazDict: Identifiable, Codable{
+    var id : UUID { UUID() }  // 自动生成 UUID
+    var dictName : String
+    var wordList : [Word]
+    
+    /*
+    // 自定义 Decodable 实现
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.dictName = try container.decode(String.self, forKey: .dictName)
+        self.wordList = try container.decode([Word].self, forKey: .wordList)
+        self.id = UUID()  // 手动生成 UUID
+    }
+    
+    // 默认初始化
+    init(dictName: String, wordList: [Word]) {
+        self.dictName = dictName
+        self.wordList = wordList
+    } */
+}
+
 struct LearningSession: Identifiable, Codable {
     var id = UUID()
     var date: Date

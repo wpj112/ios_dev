@@ -1,4 +1,6 @@
 [
+    {"dictName":"raz_C", "wordList":
+[
     {"word":"cow","meaning":"n. 奶牛","imageName":"000001_cow"},
     {"word":"acorn","meaning":"n. 橡果","imageName":"000002_acorn"},
     {"word":"corn","meaning":"n. 玉米","imageName":"000003_corn"},
@@ -19,4 +21,25 @@
     {"word":"stocking","meaning":"n. 筒袜","imageName":"000018_stocking"},
     {"word":"bag","meaning":"n. 书包","imageName":"000019_bag"},
     {"word":"noodles","meaning":"n. 面条","imageName":"000020_noodles"},
+] },
+    {"dictName":"raz_D", "wordList":
+    [
+        {
+            "word": "silent",
+            "meaning": "沉默的",
+            "imageName": "silent.png"
+        },
+        {
+            "word": "blue jay",
+            "meaning": "蓝色周杰伦",
+            "imageName": "blue jay.png"
+        },
+        {
+            "word": "material",
+            "meaning": "材料",
+            "imageName": "material.png"
+        },
+    ]
+    }
+
 ]
