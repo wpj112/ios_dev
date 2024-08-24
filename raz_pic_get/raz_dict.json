@@ -1,0 +1,5445 @@
+[
+{"dictName":"raz_C",
+"wordList":
+[
+    {
+        "word": "duck",
+        "meaning": "鸭子",
+        "imageName": "duck.png"
+    },
+    {
+        "word": "dog",
+        "meaning": "狗",
+        "imageName": "dog.png"
+    },
+    {
+        "word": "world",
+        "meaning": "世界",
+        "imageName": "world.png"
+    },
+    {
+        "word": "popcorn",
+        "meaning": "爆米花",
+        "imageName": "popcorn.png"
+    },
+    {
+        "word": "defend",
+        "meaning": "保卫",
+        "imageName": "defend.png"
+    },
+    {
+        "word": "earthworm",
+        "meaning": "蚯蚓",
+        "imageName": "earthworm.png"
+    },
+    {
+        "word": "little",
+        "meaning": "小的",
+        "imageName": "little.png"
+    },
+    {
+        "word": "desert",
+        "meaning": "沙漠",
+        "imageName": "desert.png"
+    },
+    {
+        "word": "cage",
+        "meaning": "笼",
+        "imageName": "cage.png"
+    },
+    {
+        "word": "chop",
+        "meaning": "劈",
+        "imageName": "chop.png"
+    },
+    {
+        "word": "bite",
+        "meaning": "咬",
+        "imageName": "bite.png"
+    },
+    {
+        "word": "nap",
+        "meaning": "午睡",
+        "imageName": "nap.png"
+    },
+    {
+        "word": "selfish",
+        "meaning": "自私",
+        "imageName": "selfish.png"
+    },
+    {
+        "word": "wooden",
+        "meaning": "木制的",
+        "imageName": "wooden.png"
+    },
+    {
+        "word": "happy",
+        "meaning": "快乐的",
+        "imageName": "happy.png"
+    },
+    {
+        "word": "card",
+        "meaning": "卡片",
+        "imageName": "card.png"
+    },
+    {
+        "word": "quiet",
+        "meaning": "安静的",
+        "imageName": "quiet.png"
+    },
+    {
+        "word": "rabbit",
+        "meaning": "兔子",
+        "imageName": "rabbit.png"
+    },
+    {
+        "word": "seventh",
+        "meaning": "第七",
+        "imageName": "seventh.png"
+    },
+    {
+        "word": "feed",
+        "meaning": "喂养",
+        "imageName": "feed.png"
+    },
+    {
+        "word": "fife",
+        "meaning": "法夫",
+        "imageName": "fife.png"
+    },
+    {
+        "word": "street",
+        "meaning": "街道",
+        "imageName": "street.png"
+    },
+    {
+        "word": "whale",
+        "meaning": "鲸",
+        "imageName": "whale.png"
+    },
+    {
+        "word": "sing",
+        "meaning": "唱歌",
+        "imageName": "sing.png"
+    },
+    {
+        "word": "squirt",
+        "meaning": "喷出",
+        "imageName": "squirt.png"
+    },
+    {
+        "word": "grand",
+        "meaning": "盛大",
+        "imageName": "grand.png"
+    },
+    {
+        "word": "rise",
+        "meaning": "上升",
+        "imageName": "rise.png"
+    },
+    {
+        "word": "basement",
+        "meaning": "地下室",
+        "imageName": "basement.png"
+    },
+    {
+        "word": "tool",
+        "meaning": "工具",
+        "imageName": "tool.png"
+    },
+    {
+        "word": "boat",
+        "meaning": "船",
+        "imageName": "boat.png"
+    },
+    {
+        "word": "dam",
+        "meaning": "坝",
+        "imageName": "dam.png"
+    },
+    {
+        "word": "fence",
+        "meaning": "栅栏",
+        "imageName": "fence.png"
+    },
+    {
+        "word": "stay",
+        "meaning": "停留",
+        "imageName": "stay.png"
+    },
+    {
+        "word": "machine",
+        "meaning": "机器",
+        "imageName": "machine.png"
+    },
+    {
+        "word": "hose",
+        "meaning": "软管",
+        "imageName": "hose.png"
+    },
+    {
+        "word": "stop",
+        "meaning": "停止",
+        "imageName": "stop.png"
+    },
+    {
+        "word": "hug",
+        "meaning": "拥抱",
+        "imageName": "hug.png"
+    },
+    {
+        "word": "froglet",
+        "meaning": "蛙",
+        "imageName": "froglet.png"
+    },
+    {
+        "word": "summer",
+        "meaning": "夏天",
+        "imageName": "summer.png"
+    },
+    {
+        "word": "clothes",
+        "meaning": "衣服",
+        "imageName": "clothes.png"
+    },
+    {
+        "word": "grow",
+        "meaning": "生长",
+        "imageName": "grow.png"
+    },
+    {
+        "word": "floppy",
+        "meaning": "软盘",
+        "imageName": "floppy.png"
+    },
+    {
+        "word": "cake",
+        "meaning": "蛋糕",
+        "imageName": "cake.png"
+    },
+    {
+        "word": "plant",
+        "meaning": "植物",
+        "imageName": "plant.png"
+    },
+    {
+        "word": "practice",
+        "meaning": "实践",
+        "imageName": "practice.png"
+    },
+    {
+        "word": "there",
+        "meaning": "那里",
+        "imageName": "there.png"
+    },
+    {
+        "word": "kind",
+        "meaning": "种类",
+        "imageName": "kind.png"
+    },
+    {
+        "word": "lima",
+        "meaning": "利马",
+        "imageName": "lima.png"
+    },
+    {
+        "word": "beaver",
+        "meaning": "海狸",
+        "imageName": "beaver.png"
+    },
+    {
+        "word": "teacher",
+        "meaning": "老师",
+        "imageName": "teacher.png"
+    },
+    {
+        "word": "spider",
+        "meaning": "蜘蛛",
+        "imageName": "spider.png"
+    },
+    {
+        "word": "slippery",
+        "meaning": "滑",
+        "imageName": "slippery.png"
+    },
+    {
+        "word": "train",
+        "meaning": "火车",
+        "imageName": "train.png"
+    },
+    {
+        "word": "swing",
+        "meaning": "摇摆",
+        "imageName": "swing.png"
+    },
+    {
+        "word": "place",
+        "meaning": "地方",
+        "imageName": "place.png"
+    },
+    {
+        "word": "hair",
+        "meaning": "头发",
+        "imageName": "hair.png"
+    },
+    {
+        "word": "Friday",
+        "meaning": "星期五",
+        "imageName": "Friday.png"
+    },
+    {
+        "word": "satellite",
+        "meaning": "卫星",
+        "imageName": "satellite.png"
+    },
+    {
+        "word": "hat",
+        "meaning": "帽子",
+        "imageName": "hat.png"
+    },
+    {
+        "word": "mouth",
+        "meaning": "嘴",
+        "imageName": "mouth.png"
+    },
+    {
+        "word": "jump",
+        "meaning": "跳",
+        "imageName": "jump.png"
+    },
+    {
+        "word": "fuzzy",
+        "meaning": "模糊",
+        "imageName": "fuzzy.png"
+    },
+    {
+        "word": "book",
+        "meaning": "书",
+        "imageName": "book.png"
+    },
+    {
+        "word": "living room",
+        "meaning": "客厅",
+        "imageName": "living room.png"
+    },
+    {
+        "word": "loon",
+        "meaning": "懒人",
+        "imageName": "loon.png"
+    },
+    {
+        "word": "jar",
+        "meaning": "罐",
+        "imageName": "jar.png"
+    },
+    {
+        "word": "salmon",
+        "meaning": "三文鱼",
+        "imageName": "salmon.png"
+    },
+    {
+        "word": "loud",
+        "meaning": "大声",
+        "imageName": "loud.png"
+    },
+    {
+        "word": "same",
+        "meaning": "相同的",
+        "imageName": "same.png"
+    },
+    {
+        "word": "wasp",
+        "meaning": "黄蜂",
+        "imageName": "wasp.png"
+    },
+    {
+        "word": "then",
+        "meaning": "然后",
+        "imageName": "then.png"
+    },
+    {
+        "word": "time",
+        "meaning": "时间",
+        "imageName": "time.png"
+    },
+    {
+        "word": "feeling",
+        "meaning": "感觉",
+        "imageName": "feeling.png"
+    },
+    {
+        "word": "make",
+        "meaning": "制作",
+        "imageName": "make.png"
+    },
+    {
+        "word": ".DS_Store",
+        "meaning": ".ds_store",
+        "imageName": ".DS_Store"
+    },
+    {
+        "word": "planet",
+        "meaning": "行星",
+        "imageName": "planet.png"
+    },
+    {
+        "word": "inside",
+        "meaning": "里面",
+        "imageName": "inside.png"
+    },
+    {
+        "word": "ice_1",
+        "meaning": "ICE_1",
+        "imageName": "ice_1.png"
+    },
+    {
+        "word": "game",
+        "meaning": "游戏",
+        "imageName": "game.png"
+    },
+    {
+        "word": "three",
+        "meaning": "三",
+        "imageName": "three.png"
+    },
+    {
+        "word": "candy",
+        "meaning": "糖果",
+        "imageName": "candy.png"
+    },
+    {
+        "word": "bedroom",
+        "meaning": "卧室",
+        "imageName": "bedroom.png"
+    },
+    {
+        "word": "these",
+        "meaning": "这些",
+        "imageName": "these.png"
+    },
+    {
+        "word": "movie",
+        "meaning": "电影",
+        "imageName": "movie.png"
+    },
+    {
+        "word": "fair",
+        "meaning": "公平的",
+        "imageName": "fair.png"
+    },
+    {
+        "word": "space",
+        "meaning": "空间",
+        "imageName": "space.png"
+    },
+    {
+        "word": "park",
+        "meaning": "公园",
+        "imageName": "park.png"
+    },
+    {
+        "word": "fly",
+        "meaning": "飞",
+        "imageName": "fly.png"
+    },
+    {
+        "word": "song",
+        "meaning": "歌曲",
+        "imageName": "song.png"
+    },
+    {
+        "word": "worm",
+        "meaning": "蠕虫",
+        "imageName": "worm.png"
+    },
+    {
+        "word": "silly",
+        "meaning": "愚蠢的",
+        "imageName": "silly.png"
+    },
+    {
+        "word": "look",
+        "meaning": "看",
+        "imageName": "look.png"
+    },
+    {
+        "word": "meek",
+        "meaning": "温顺",
+        "imageName": "meek.png"
+    },
+    {
+        "word": "dirt",
+        "meaning": "污垢",
+        "imageName": "dirt.png"
+    },
+    {
+        "word": "roasted",
+        "meaning": "烤",
+        "imageName": "roasted.png"
+    },
+    {
+        "word": "fun",
+        "meaning": "乐趣",
+        "imageName": "fun.png"
+    },
+    {
+        "word": "deer",
+        "meaning": "鹿",
+        "imageName": "deer.png"
+    },
+    {
+        "word": "sad",
+        "meaning": "伤心",
+        "imageName": "sad.png"
+    },
+    {
+        "word": "sailboat",
+        "meaning": "帆船",
+        "imageName": "sailboat.png"
+    },
+    {
+        "word": "thin",
+        "meaning": "薄的",
+        "imageName": "thin.png"
+    },
+    {
+        "word": "brush",
+        "meaning": "刷子",
+        "imageName": "brush.png"
+    },
+    {
+        "word": "animals",
+        "meaning": "动物",
+        "imageName": "animals.png"
+    },
+    {
+        "word": "store",
+        "meaning": "店铺",
+        "imageName": "store.png"
+    },
+    {
+        "word": "silk",
+        "meaning": "丝绸",
+        "imageName": "silk.png"
+    },
+    {
+        "word": "candy cane",
+        "meaning": "糖果甘蔗",
+        "imageName": "candy cane.png"
+    },
+    {
+        "word": "plane",
+        "meaning": "飞机",
+        "imageName": "plane.png"
+    },
+    {
+        "word": "woodchuck",
+        "meaning": "Woodchuck",
+        "imageName": "woodchuck.png"
+    },
+    {
+        "word": "get",
+        "meaning": "得到",
+        "imageName": "get.png"
+    },
+    {
+        "word": "potato",
+        "meaning": "土豆",
+        "imageName": "potato.png"
+    },
+    {
+        "word": "helpful",
+        "meaning": "有帮助",
+        "imageName": "helpful.png"
+    },
+    {
+        "word": "outside",
+        "meaning": "外部",
+        "imageName": "outside.png"
+    },
+    {
+        "word": "corn",
+        "meaning": "玉米",
+        "imageName": "corn.png"
+    },
+    {
+        "word": "sidewalk",
+        "meaning": "人行道",
+        "imageName": "sidewalk.png"
+    },
+    {
+        "word": "elephant",
+        "meaning": "大象",
+        "imageName": "elephant.png"
+    },
+    {
+        "word": "tadpole",
+        "meaning": "蝌蚪",
+        "imageName": "tadpole.png"
+    },
+    {
+        "word": "sleep",
+        "meaning": "睡觉",
+        "imageName": "sleep.png"
+    },
+    {
+        "word": "fire",
+        "meaning": "火",
+        "imageName": "fire.png"
+    },
+    {
+        "word": "lion",
+        "meaning": "狮子",
+        "imageName": "lion.png"
+    },
+    {
+        "word": "different",
+        "meaning": "不同的",
+        "imageName": "different.png"
+    },
+    {
+        "word": "north",
+        "meaning": "北",
+        "imageName": "north.png"
+    },
+    {
+        "word": "shell",
+        "meaning": "壳",
+        "imageName": "shell.png"
+    },
+    {
+        "word": "salt",
+        "meaning": "盐",
+        "imageName": "salt.png"
+    },
+    {
+        "word": "everywnere",
+        "meaning": "每个人",
+        "imageName": "everywnere.png"
+    },
+    {
+        "word": "talented",
+        "meaning": "才华横溢",
+        "imageName": "talented.png"
+    },
+    {
+        "word": "cuddle",
+        "meaning": "偎",
+        "imageName": "cuddle.png"
+    },
+    {
+        "word": "arm",
+        "meaning": "手臂",
+        "imageName": "arm.png"
+    },
+    {
+        "word": "sweatshirt",
+        "meaning": "运动衫",
+        "imageName": "sweatshirt.png"
+    },
+    {
+        "word": "fort",
+        "meaning": "堡",
+        "imageName": "fort.png"
+    },
+    {
+        "word": "bridge",
+        "meaning": "桥",
+        "imageName": "bridge.png"
+    },
+    {
+        "word": "did",
+        "meaning": "做过",
+        "imageName": "did.png"
+    },
+    {
+        "word": "too",
+        "meaning": "也",
+        "imageName": "too.png"
+    },
+    {
+        "word": "empty",
+        "meaning": "空的",
+        "imageName": "empty.png"
+    },
+    {
+        "word": "city",
+        "meaning": "城市",
+        "imageName": "city.png"
+    },
+    {
+        "word": "wheel",
+        "meaning": "车轮",
+        "imageName": "wheel.png"
+    },
+    {
+        "word": "mom",
+        "meaning": "妈妈",
+        "imageName": "mom.png"
+    },
+    {
+        "word": "freeze",
+        "meaning": "冻结",
+        "imageName": "freeze.png"
+    },
+    {
+        "word": "dry",
+        "meaning": "干燥",
+        "imageName": "dry.png"
+    },
+    {
+        "word": "wonder",
+        "meaning": "想知道",
+        "imageName": "wonder.png"
+    },
+    {
+        "word": "boss",
+        "meaning": "老板",
+        "imageName": "boss.png"
+    },
+    {
+        "word": "drawer",
+        "meaning": "抽屉",
+        "imageName": "drawer.png"
+    },
+    {
+        "word": "laugh",
+        "meaning": "笑",
+        "imageName": "laugh.png"
+    },
+    {
+        "word": "rug",
+        "meaning": "小地毯",
+        "imageName": "rug.png"
+    },
+    {
+        "word": "eagle",
+        "meaning": "鹰",
+        "imageName": "eagle.png"
+    },
+    {
+        "word": "Saturday",
+        "meaning": "周六",
+        "imageName": "Saturday.png"
+    },
+    {
+        "word": "turkey",
+        "meaning": "火鸡",
+        "imageName": "turkey.png"
+    },
+    {
+        "word": "yellow",
+        "meaning": "黄色的",
+        "imageName": "yellow.png"
+    },
+    {
+        "word": "move",
+        "meaning": "移动",
+        "imageName": "move.png"
+    },
+    {
+        "word": "round",
+        "meaning": "圆形的",
+        "imageName": "round.png"
+    },
+    {
+        "word": "cereal",
+        "meaning": "谷物",
+        "imageName": "cereal.png"
+    },
+    {
+        "word": "cricket",
+        "meaning": "蟋蟀",
+        "imageName": "cricket.png"
+    },
+    {
+        "word": "country",
+        "meaning": "国家",
+        "imageName": "country.png"
+    },
+    {
+        "word": "float",
+        "meaning": "漂浮",
+        "imageName": "float.png"
+    },
+    {
+        "word": "road",
+        "meaning": "路",
+        "imageName": "road.png"
+    },
+    {
+        "word": "could",
+        "meaning": "可以",
+        "imageName": "could.png"
+    },
+    {
+        "word": "bike",
+        "meaning": "自行车",
+        "imageName": "bike.png"
+    },
+    {
+        "word": "nose",
+        "meaning": "鼻子",
+        "imageName": "nose.png"
+    },
+    {
+        "word": "sister",
+        "meaning": "姐姐",
+        "imageName": "sister.png"
+    },
+    {
+        "word": "sprinkler",
+        "meaning": "洒水器",
+        "imageName": "sprinkler.png"
+    },
+    {
+        "word": "yogurt",
+        "meaning": "酸奶",
+        "imageName": "yogurt.png"
+    },
+    {
+        "word": "yawn",
+        "meaning": "打哈欠",
+        "imageName": "yawn.png"
+    },
+    {
+        "word": "dessert",
+        "meaning": "甜点",
+        "imageName": "dessert.png"
+    },
+    {
+        "word": "fall",
+        "meaning": "落下",
+        "imageName": "fall.png"
+    },
+    {
+        "word": "minute",
+        "meaning": "分钟",
+        "imageName": "minute.png"
+    },
+    {
+        "word": "show",
+        "meaning": "展示",
+        "imageName": "show.png"
+    },
+    {
+        "word": "change",
+        "meaning": "改变",
+        "imageName": "change.png"
+    },
+    {
+        "word": "interesting",
+        "meaning": "有趣的",
+        "imageName": "interesting.png"
+    },
+    {
+        "word": "caring",
+        "meaning": "关怀",
+        "imageName": "caring.png"
+    },
+    {
+        "word": "paint",
+        "meaning": "画",
+        "imageName": "paint.png"
+    },
+    {
+        "word": "zebra",
+        "meaning": "斑马",
+        "imageName": "zebra.png"
+    },
+    {
+        "word": "toy",
+        "meaning": "玩具",
+        "imageName": "toy.png"
+    },
+    {
+        "word": "shy",
+        "meaning": "害羞的",
+        "imageName": "shy.png"
+    },
+    {
+        "word": "dig",
+        "meaning": "挖",
+        "imageName": "dig.png"
+    },
+    {
+        "word": "tiger",
+        "meaning": "老虎",
+        "imageName": "tiger.png"
+    },
+    {
+        "word": "have",
+        "meaning": "有",
+        "imageName": "have.png"
+    },
+    {
+        "word": "windmill",
+        "meaning": "风车",
+        "imageName": "windmill.png"
+    },
+    {
+        "word": "shower",
+        "meaning": "淋浴",
+        "imageName": "shower.png"
+    },
+    {
+        "word": "hold",
+        "meaning": "抓住",
+        "imageName": "hold.png"
+    },
+    {
+        "word": "mummy",
+        "meaning": "木乃伊",
+        "imageName": "mummy.png"
+    },
+    {
+        "word": "epovell",
+        "meaning": "Epovell",
+        "imageName": "epovell.png"
+    },
+    {
+        "word": "chip",
+        "meaning": "芯片",
+        "imageName": "chip.png"
+    },
+    {
+        "word": "sheep",
+        "meaning": "羊",
+        "imageName": "sheep.png"
+    },
+    {
+        "word": "candle",
+        "meaning": "蜡烛",
+        "imageName": "candle.png"
+    },
+    {
+        "word": "angel",
+        "meaning": "天使",
+        "imageName": "angel.png"
+    },
+    {
+        "word": "forest",
+        "meaning": "森林",
+        "imageName": "forest.png"
+    },
+    {
+        "word": "shirt",
+        "meaning": "衬衫",
+        "imageName": "shirt.png"
+    },
+    {
+        "word": "blue",
+        "meaning": "蓝色的",
+        "imageName": "blue.png"
+    },
+    {
+        "word": "elk",
+        "meaning": "麋鹿",
+        "imageName": "elk.png"
+    },
+    {
+        "word": "bottom",
+        "meaning": "底部",
+        "imageName": "bottom.png"
+    },
+    {
+        "word": "furry",
+        "meaning": "毛茸茸",
+        "imageName": "furry.png"
+    },
+    {
+        "word": "bakery",
+        "meaning": "面包店",
+        "imageName": "bakery.png"
+    },
+    {
+        "word": "hexagon",
+        "meaning": "六边形",
+        "imageName": "hexagon.png"
+    },
+    {
+        "word": "sponge",
+        "meaning": "海绵",
+        "imageName": "sponge.png"
+    },
+    {
+        "word": "room",
+        "meaning": "房间",
+        "imageName": "room.png"
+    },
+    {
+        "word": "finger",
+        "meaning": "手指",
+        "imageName": "finger.png"
+    },
+    {
+        "word": "Wednesday",
+        "meaning": "周三",
+        "imageName": "Wednesday.png"
+    },
+    {
+        "word": "many",
+        "meaning": "许多",
+        "imageName": "many.png"
+    },
+    {
+        "word": "scratch",
+        "meaning": "划痕",
+        "imageName": "scratch.png"
+    },
+    {
+        "word": "television",
+        "meaning": "电视",
+        "imageName": "television.png"
+    },
+    {
+        "word": "pave",
+        "meaning": "铺平",
+        "imageName": "pave.png"
+    },
+    {
+        "word": "puppet",
+        "meaning": "木偶",
+        "imageName": "puppet.png"
+    },
+    {
+        "word": "safe",
+        "meaning": "安全的",
+        "imageName": "safe.png"
+    },
+    {
+        "word": "shark",
+        "meaning": "鲨鱼",
+        "imageName": "shark.png"
+    },
+    {
+        "word": "library",
+        "meaning": "图书馆",
+        "imageName": "library.png"
+    },
+    {
+        "word": "tonight",
+        "meaning": "今晚",
+        "imageName": "tonight.png"
+    },
+    {
+        "word": "crayon",
+        "meaning": "蜡笔",
+        "imageName": "crayon.png"
+    },
+    {
+        "word": "proud",
+        "meaning": "自豪的",
+        "imageName": "proud.png"
+    },
+    {
+        "word": "canyon",
+        "meaning": "峡谷",
+        "imageName": "canyon.png"
+    },
+    {
+        "word": "upset",
+        "meaning": "沮丧的",
+        "imageName": "upset.png"
+    },
+    {
+        "word": "draw",
+        "meaning": "画",
+        "imageName": "draw.png"
+    },
+    {
+        "word": "pool",
+        "meaning": "水池",
+        "imageName": "pool.png"
+    },
+    {
+        "word": "brother",
+        "meaning": "兄弟",
+        "imageName": "brother.png"
+    },
+    {
+        "word": "Halloween",
+        "meaning": "万圣节",
+        "imageName": "Halloween.png"
+    },
+    {
+        "word": "home",
+        "meaning": "家",
+        "imageName": "home.png"
+    },
+    {
+        "word": "two",
+        "meaning": "二",
+        "imageName": "two.png"
+    },
+    {
+        "word": "onion",
+        "meaning": "洋葱",
+        "imageName": "onion.png"
+    },
+    {
+        "word": "girl",
+        "meaning": "女孩",
+        "imageName": "girl.png"
+    },
+    {
+        "word": "cheetah",
+        "meaning": "猎豹",
+        "imageName": "cheetah.png"
+    },
+    {
+        "word": "rectangle",
+        "meaning": "长方形",
+        "imageName": "rectangle.png"
+    },
+    {
+        "word": "gorilla",
+        "meaning": "大猩猩",
+        "imageName": "gorilla.png"
+    },
+    {
+        "word": "winter",
+        "meaning": "冬天",
+        "imageName": "winter.png"
+    },
+    {
+        "word": "do",
+        "meaning": "做",
+        "imageName": "do.png"
+    },
+    {
+        "word": "circle",
+        "meaning": "圆圈",
+        "imageName": "circle.png"
+    },
+    {
+        "word": "yummy",
+        "meaning": "美味",
+        "imageName": "yummy.png"
+    },
+    {
+        "word": "smart",
+        "meaning": "聪明的",
+        "imageName": "smart.png"
+    },
+    {
+        "word": "wear",
+        "meaning": "穿",
+        "imageName": "wear.png"
+    },
+    {
+        "word": "umbrella",
+        "meaning": "伞",
+        "imageName": "umbrella.png"
+    },
+    {
+        "word": "butterfly",
+        "meaning": "蝴蝶",
+        "imageName": "butterfly.png"
+    },
+    {
+        "word": "gravel",
+        "meaning": "碎石",
+        "imageName": "gravel.png"
+    },
+    {
+        "word": "raccoon",
+        "meaning": "狸",
+        "imageName": "raccoon.png"
+    },
+    {
+        "word": "know",
+        "meaning": "知道",
+        "imageName": "know.png"
+    },
+    {
+        "word": "donkey",
+        "meaning": "驴",
+        "imageName": "donkey.png"
+    },
+    {
+        "word": "wing",
+        "meaning": "翼",
+        "imageName": "wing.png"
+    },
+    {
+        "word": "beg",
+        "meaning": "求",
+        "imageName": "beg.png"
+    },
+    {
+        "word": "tire",
+        "meaning": "胎",
+        "imageName": "tire.png"
+    },
+    {
+        "word": "light bulb",
+        "meaning": "灯泡",
+        "imageName": "light bulb.png"
+    },
+    {
+        "word": "with",
+        "meaning": "和",
+        "imageName": "with.png"
+    },
+    {
+        "word": "snow",
+        "meaning": "雪",
+        "imageName": "snow.png"
+    },
+    {
+        "word": "old",
+        "meaning": "老的",
+        "imageName": "old.png"
+    },
+    {
+        "word": "oval",
+        "meaning": "椭圆形",
+        "imageName": "oval.png"
+    },
+    {
+        "word": "ant",
+        "meaning": "蚂蚁",
+        "imageName": "ant.png"
+    },
+    {
+        "word": "black",
+        "meaning": "黑色的",
+        "imageName": "black.png"
+    },
+    {
+        "word": "Sunday",
+        "meaning": "星期日",
+        "imageName": "Sunday.png"
+    },
+    {
+        "word": "nighttime",
+        "meaning": "夜间",
+        "imageName": "nighttime.png"
+    },
+    {
+        "word": "can",
+        "meaning": "能",
+        "imageName": "can.png"
+    },
+    {
+        "word": "four",
+        "meaning": "四个",
+        "imageName": "four.png"
+    },
+    {
+        "word": "tomato",
+        "meaning": "番茄",
+        "imageName": "tomato.png"
+    },
+    {
+        "word": "woof",
+        "meaning": "纬",
+        "imageName": "woof.png"
+    },
+    {
+        "word": "spread",
+        "meaning": "传播",
+        "imageName": "spread.png"
+    },
+    {
+        "word": "skates",
+        "meaning": "冰鞋",
+        "imageName": "skates.png"
+    },
+    {
+        "word": "scared",
+        "meaning": "害怕的",
+        "imageName": "scared.png"
+    },
+    {
+        "word": "owl",
+        "meaning": "猫头鹰",
+        "imageName": "owl.png"
+    },
+    {
+        "word": "chase",
+        "meaning": "追赶",
+        "imageName": "chase.png"
+    },
+    {
+        "word": "frost",
+        "meaning": "霜",
+        "imageName": "frost.png"
+    },
+    {
+        "word": "short",
+        "meaning": "短的",
+        "imageName": "short.png"
+    },
+    {
+        "word": "house",
+        "meaning": "房子",
+        "imageName": "house.png"
+    },
+    {
+        "word": "sound",
+        "meaning": "声音",
+        "imageName": "sound.png"
+    },
+    {
+        "word": "ladybug",
+        "meaning": "瓢虫",
+        "imageName": "ladybug.png"
+    },
+    {
+        "word": "will",
+        "meaning": "将要",
+        "imageName": "will.png"
+    },
+    {
+        "word": "moth",
+        "meaning": "蛾",
+        "imageName": "moth.png"
+    },
+    {
+        "word": "wind",
+        "meaning": "风",
+        "imageName": "wind.png"
+    },
+    {
+        "word": "big",
+        "meaning": "大的",
+        "imageName": "big.png"
+    },
+    {
+        "word": "dinosaur",
+        "meaning": "恐龙",
+        "imageName": "dinosaur.png"
+    },
+    {
+        "word": "bathroom",
+        "meaning": "浴室",
+        "imageName": "bathroom.png"
+    },
+    {
+        "word": "purr",
+        "meaning": "pur",
+        "imageName": "purr.png"
+    },
+    {
+        "word": "toy box",
+        "meaning": "玩具盒",
+        "imageName": "toy box.png"
+    },
+    {
+        "word": "bed",
+        "meaning": "床",
+        "imageName": "bed.png"
+    },
+    {
+        "word": "bee",
+        "meaning": "蜜蜂",
+        "imageName": "bee.png"
+    },
+    {
+        "word": "pick",
+        "meaning": "挑选",
+        "imageName": "pick.png"
+    },
+    {
+        "word": "grandma",
+        "meaning": "奶奶",
+        "imageName": "grandma.png"
+    },
+    {
+        "word": "eraser",
+        "meaning": "橡皮",
+        "imageName": "eraser.png"
+    },
+    {
+        "word": "like",
+        "meaning": "喜欢",
+        "imageName": "like.png"
+    },
+    {
+        "word": "fluffy",
+        "meaning": "蓬松的",
+        "imageName": "fluffy.png"
+    },
+    {
+        "word": "sign",
+        "meaning": "符号",
+        "imageName": "sign.png"
+    },
+    {
+        "word": "friend",
+        "meaning": "朋友",
+        "imageName": "friend.png"
+    },
+    {
+        "word": "peacock",
+        "meaning": "孔雀",
+        "imageName": "peacock.png"
+    },
+    {
+        "word": "beef",
+        "meaning": "牛肉",
+        "imageName": "beef.png"
+    },
+    {
+        "word": "triangle",
+        "meaning": "三角形",
+        "imageName": "triangle.png"
+    },
+    {
+        "word": "drink",
+        "meaning": "喝",
+        "imageName": "drink.png"
+    },
+    {
+        "word": "very",
+        "meaning": "非常",
+        "imageName": "very.png"
+    },
+    {
+        "word": "spring",
+        "meaning": "春天",
+        "imageName": "spring.png"
+    },
+    {
+        "word": "ladder",
+        "meaning": "梯子",
+        "imageName": "ladder.png"
+    },
+    {
+        "word": "socks",
+        "meaning": "袜子",
+        "imageName": "socks.png"
+    },
+    {
+        "word": "shape",
+        "meaning": "形状",
+        "imageName": "shape.png"
+    },
+    {
+        "word": "driver",
+        "meaning": "司机",
+        "imageName": "driver.png"
+    },
+    {
+        "word": "closet",
+        "meaning": "壁橱",
+        "imageName": "closet.png"
+    },
+    {
+        "word": "wolf",
+        "meaning": "狼",
+        "imageName": "wolf.png"
+    },
+    {
+        "word": "mixer",
+        "meaning": "混合器",
+        "imageName": "mixer.png"
+    },
+    {
+        "word": "fawn",
+        "meaning": "讨好",
+        "imageName": "fawn.png"
+    },
+    {
+        "word": "clang",
+        "meaning": "铛",
+        "imageName": "clang.png"
+    },
+    {
+        "word": "pepper",
+        "meaning": "胡椒",
+        "imageName": "pepper.png"
+    },
+    {
+        "word": "cell",
+        "meaning": "细胞",
+        "imageName": "cell.png"
+    },
+    {
+        "word": "soaked",
+        "meaning": "浸泡",
+        "imageName": "soaked.png"
+    },
+    {
+        "word": "state",
+        "meaning": "状态",
+        "imageName": "state.png"
+    },
+    {
+        "word": "wheelbarrow",
+        "meaning": "独轮车",
+        "imageName": "wheelbarrow.png"
+    },
+    {
+        "word": "foal",
+        "meaning": "驹",
+        "imageName": "foal.png"
+    },
+    {
+        "word": "blink",
+        "meaning": "眨",
+        "imageName": "blink.png"
+    },
+    {
+        "word": "light",
+        "meaning": "光",
+        "imageName": "light.png"
+    },
+    {
+        "word": "orange",
+        "meaning": "橙子",
+        "imageName": "orange.png"
+    },
+    {
+        "word": "moon",
+        "meaning": "月亮",
+        "imageName": "moon.png"
+    },
+    {
+        "word": "run",
+        "meaning": "跑步",
+        "imageName": "run.png"
+    },
+    {
+        "word": "plain",
+        "meaning": "清楚的",
+        "imageName": "plain.png"
+    },
+    {
+        "word": "healthy",
+        "meaning": "健康",
+        "imageName": "healthy.png"
+    },
+    {
+        "word": "leg",
+        "meaning": "腿",
+        "imageName": "leg.png"
+    },
+    {
+        "word": "penguin",
+        "meaning": "企鹅",
+        "imageName": "penguin.png"
+    },
+    {
+        "word": "Canada",
+        "meaning": "加拿大",
+        "imageName": "Canada.png"
+    },
+    {
+        "word": "angry",
+        "meaning": "生气的",
+        "imageName": "angry.png"
+    },
+    {
+        "word": "birthday",
+        "meaning": "生日",
+        "imageName": "birthday.png"
+    },
+    {
+        "word": "blow",
+        "meaning": "吹",
+        "imageName": "blow.png"
+    },
+    {
+        "word": "find",
+        "meaning": "寻找",
+        "imageName": "find.png"
+    },
+    {
+        "word": "Thursday",
+        "meaning": "周四",
+        "imageName": "Thursday.png"
+    },
+    {
+        "word": "porch",
+        "meaning": "门廊",
+        "imageName": "porch.png"
+    },
+    {
+        "word": "fin",
+        "meaning": "鳍",
+        "imageName": "fin.png"
+    },
+    {
+        "word": "mouse",
+        "meaning": "老鼠",
+        "imageName": "mouse.png"
+    },
+    {
+        "word": "apple",
+        "meaning": "苹果",
+        "imageName": "apple.png"
+    },
+    {
+        "word": "grass",
+        "meaning": "草",
+        "imageName": "grass.png"
+    },
+    {
+        "word": "bake",
+        "meaning": "烤",
+        "imageName": "bake.png"
+    },
+    {
+        "word": "when",
+        "meaning": "什么时候",
+        "imageName": "when.png"
+    },
+    {
+        "word": "top",
+        "meaning": "顶部",
+        "imageName": "top.png"
+    },
+    {
+        "word": "deck",
+        "meaning": "甲板",
+        "imageName": "deck.png"
+    },
+    {
+        "word": "man",
+        "meaning": "男人",
+        "imageName": "man.png"
+    },
+    {
+        "word": "ring",
+        "meaning": "戒指",
+        "imageName": "ring.png"
+    },
+    {
+        "word": "sit",
+        "meaning": "坐",
+        "imageName": "sit.png"
+    },
+    {
+        "word": "choice",
+        "meaning": "选择",
+        "imageName": "choice.png"
+    },
+    {
+        "word": "comet",
+        "meaning": "彗星",
+        "imageName": "comet.png"
+    },
+    {
+        "word": "food",
+        "meaning": "食物",
+        "imageName": "food.png"
+    },
+    {
+        "word": "airplane",
+        "meaning": "飞机",
+        "imageName": "airplane.png"
+    },
+    {
+        "word": "hungry",
+        "meaning": "饥饿的",
+        "imageName": "hungry.png"
+    },
+    {
+        "word": "sting_1",
+        "meaning": "sting_1",
+        "imageName": "sting_1.png"
+    },
+    {
+        "word": "cilantro",
+        "meaning": "香菜",
+        "imageName": "cilantro.png"
+    },
+    {
+        "word": "insect",
+        "meaning": "昆虫",
+        "imageName": "insect.png"
+    },
+    {
+        "word": "cold",
+        "meaning": "寒冷的",
+        "imageName": "cold.png"
+    },
+    {
+        "word": "snack",
+        "meaning": "小吃",
+        "imageName": "snack.png"
+    },
+    {
+        "word": "twins",
+        "meaning": "双胞胎",
+        "imageName": "twins.png"
+    },
+    {
+        "word": "quick",
+        "meaning": "快的",
+        "imageName": "quick.png"
+    },
+    {
+        "word": "help",
+        "meaning": "帮助",
+        "imageName": "help.png"
+    },
+    {
+        "word": "stubborn",
+        "meaning": "固执的",
+        "imageName": "stubborn.png"
+    },
+    {
+        "word": "sixth",
+        "meaning": "第六",
+        "imageName": "sixth.png"
+    },
+    {
+        "word": "tuna",
+        "meaning": "金枪鱼",
+        "imageName": "tuna.png"
+    },
+    {
+        "word": "balloon",
+        "meaning": "气球",
+        "imageName": "balloon.png"
+    },
+    {
+        "word": "seed",
+        "meaning": "种子",
+        "imageName": "seed.png"
+    },
+    {
+        "word": "piglet",
+        "meaning": "小猪",
+        "imageName": "piglet.png"
+    },
+    {
+        "word": "funny",
+        "meaning": "有趣的",
+        "imageName": "funny.png"
+    },
+    {
+        "word": "Santa",
+        "meaning": "圣诞老人",
+        "imageName": "Santa.png"
+    },
+    {
+        "word": "goose",
+        "meaning": "鹅",
+        "imageName": "goose.png"
+    },
+    {
+        "word": "rocket",
+        "meaning": "火箭",
+        "imageName": "rocket.png"
+    },
+    {
+        "word": "dice",
+        "meaning": "骰子",
+        "imageName": "dice.png"
+    },
+    {
+        "word": "anywhere",
+        "meaning": "任何地方",
+        "imageName": "anywhere.png"
+    },
+    {
+        "word": "cup",
+        "meaning": "杯子",
+        "imageName": "cup.png"
+    },
+    {
+        "word": "soil",
+        "meaning": "土壤",
+        "imageName": "soil.png"
+    },
+    {
+        "word": "window",
+        "meaning": "窗户",
+        "imageName": "window.png"
+    },
+    {
+        "word": "read",
+        "meaning": "读",
+        "imageName": "read.png"
+    },
+    {
+        "word": "hate",
+        "meaning": "恨",
+        "imageName": "hate.png"
+    },
+    {
+        "word": "sea",
+        "meaning": "海",
+        "imageName": "sea.png"
+    },
+    {
+        "word": "want",
+        "meaning": "想",
+        "imageName": "want.png"
+    },
+    {
+        "word": "ro",
+        "meaning": "ro",
+        "imageName": "ro.png"
+    },
+    {
+        "word": "shoes",
+        "meaning": "鞋",
+        "imageName": "shoes.png"
+    },
+    {
+        "word": "wool",
+        "meaning": "羊毛",
+        "imageName": "wool.png"
+    },
+    {
+        "word": "tooth",
+        "meaning": "齿",
+        "imageName": "tooth.png"
+    },
+    {
+        "word": "sky",
+        "meaning": "天空",
+        "imageName": "sky.png"
+    },
+    {
+        "word": "mountain",
+        "meaning": "山",
+        "imageName": "mountain.png"
+    },
+    {
+        "word": "cloud",
+        "meaning": "云",
+        "imageName": "cloud.png"
+    },
+    {
+        "word": "cut",
+        "meaning": "切",
+        "imageName": "cut.png"
+    },
+    {
+        "word": "ice",
+        "meaning": "冰",
+        "imageName": "ice.png"
+    },
+    {
+        "word": "come",
+        "meaning": "来",
+        "imageName": "come.png"
+    },
+    {
+        "word": "color",
+        "meaning": "颜色",
+        "imageName": "color.png"
+    },
+    {
+        "word": "head",
+        "meaning": "头",
+        "imageName": "head.png"
+    },
+    {
+        "word": "frog",
+        "meaning": "青蛙",
+        "imageName": "frog.png"
+    },
+    {
+        "word": "trip",
+        "meaning": "旅行",
+        "imageName": "trip.png"
+    },
+    {
+        "word": "sweet",
+        "meaning": "甜的",
+        "imageName": "sweet.png"
+    },
+    {
+        "word": "avocado",
+        "meaning": "牛油果",
+        "imageName": "avocado.png"
+    },
+    {
+        "word": "count",
+        "meaning": "数数",
+        "imageName": "count.png"
+    },
+    {
+        "word": "water",
+        "meaning": "水",
+        "imageName": "water.png"
+    },
+    {
+        "word": "flea",
+        "meaning": "跳蚤",
+        "imageName": "flea.png"
+    },
+    {
+        "word": "stretch",
+        "meaning": "拉紧",
+        "imageName": "stretch.png"
+    },
+    {
+        "word": "tree",
+        "meaning": "树",
+        "imageName": "tree.png"
+    },
+    {
+        "word": "scary",
+        "meaning": "可怕的",
+        "imageName": "scary.png"
+    },
+    {
+        "word": "door",
+        "meaning": "门",
+        "imageName": "door.png"
+    },
+    {
+        "word": "drum",
+        "meaning": "鼓",
+        "imageName": "drum.png"
+    },
+    {
+        "word": "view",
+        "meaning": "看法",
+        "imageName": "view.png"
+    },
+    {
+        "word": "stove",
+        "meaning": "火炉",
+        "imageName": "stove.png"
+    },
+    {
+        "word": "half",
+        "meaning": "一半",
+        "imageName": "half.png"
+    },
+    {
+        "word": "one",
+        "meaning": "一",
+        "imageName": "one.png"
+    },
+    {
+        "word": "listen",
+        "meaning": "听",
+        "imageName": "listen.png"
+    },
+    {
+        "word": "ding",
+        "meaning": "丁",
+        "imageName": "ding.png"
+    },
+    {
+        "word": "toothpaste",
+        "meaning": "牙膏",
+        "imageName": "toothpaste.png"
+    },
+    {
+        "word": "muffin",
+        "meaning": "松饼",
+        "imageName": "muffin.png"
+    },
+    {
+        "word": "car",
+        "meaning": "车",
+        "imageName": "car.png"
+    },
+    {
+        "word": "drive",
+        "meaning": "驾驶",
+        "imageName": "drive.png"
+    },
+    {
+        "word": "second",
+        "meaning": "第二",
+        "imageName": "second.png"
+    },
+    {
+        "word": "share",
+        "meaning": "分享",
+        "imageName": "share.png"
+    },
+    {
+        "word": "together",
+        "meaning": "一起",
+        "imageName": "together.png"
+    },
+    {
+        "word": "slug",
+        "meaning": "sl",
+        "imageName": "slug.png"
+    },
+    {
+        "word": "new",
+        "meaning": "新的",
+        "imageName": "new.png"
+    },
+    {
+        "word": "crash",
+        "meaning": "碰撞",
+        "imageName": "crash.png"
+    },
+    {
+        "word": "eye",
+        "meaning": "眼睛",
+        "imageName": "eye.png"
+    },
+    {
+        "word": "creative",
+        "meaning": "有创造力的",
+        "imageName": "creative.png"
+    },
+    {
+        "word": "learn",
+        "meaning": "学习",
+        "imageName": "learn.png"
+    },
+    {
+        "word": "push",
+        "meaning": "推",
+        "imageName": "push.png"
+    },
+    {
+        "word": "sprout",
+        "meaning": "发芽",
+        "imageName": "sprout.png"
+    },
+    {
+        "word": "eat",
+        "meaning": "吃",
+        "imageName": "eat.png"
+    },
+    {
+        "word": "best",
+        "meaning": "最好的",
+        "imageName": "best.png"
+    },
+    {
+        "word": "ray",
+        "meaning": "射线",
+        "imageName": "ray.png"
+    },
+    {
+        "word": "sting",
+        "meaning": "蜇",
+        "imageName": "sting.png"
+    },
+    {
+        "word": "cozy",
+        "meaning": "舒适",
+        "imageName": "cozy.png"
+    },
+    {
+        "word": "jellyfish",
+        "meaning": "海蜇",
+        "imageName": "jellyfish.png"
+    },
+    {
+        "word": "wet",
+        "meaning": "湿的",
+        "imageName": "wet.png"
+    },
+    {
+        "word": "salad",
+        "meaning": "沙拉",
+        "imageName": "salad.png"
+    },
+    {
+        "word": "hill",
+        "meaning": "爬坡道",
+        "imageName": "hill.png"
+    },
+    {
+        "word": "fancy",
+        "meaning": "想要",
+        "imageName": "fancy.png"
+    },
+    {
+        "word": "last",
+        "meaning": "最后的",
+        "imageName": "last.png"
+    },
+    {
+        "word": "tail",
+        "meaning": "尾巴",
+        "imageName": "tail.png"
+    },
+    {
+        "word": "bloom",
+        "meaning": "盛开",
+        "imageName": "bloom.png"
+    },
+    {
+        "word": "snowman",
+        "meaning": "雪人",
+        "imageName": "snowman.png"
+    },
+    {
+        "word": "monkey",
+        "meaning": "猴",
+        "imageName": "monkey.png"
+    },
+    {
+        "word": "living",
+        "meaning": "活的",
+        "imageName": "living.png"
+    },
+    {
+        "word": "bank",
+        "meaning": "银行",
+        "imageName": "bank.png"
+    },
+    {
+        "word": "nice",
+        "meaning": "好的",
+        "imageName": "nice.png"
+    },
+    {
+        "word": "pencil",
+        "meaning": "铅笔",
+        "imageName": "pencil.png"
+    },
+    {
+        "word": "hot",
+        "meaning": "热的",
+        "imageName": "hot.png"
+    },
+    {
+        "word": "wash",
+        "meaning": "洗",
+        "imageName": "wash.png"
+    },
+    {
+        "word": "computer",
+        "meaning": "电脑",
+        "imageName": "computer.png"
+    },
+    {
+        "word": "pull",
+        "meaning": "拉",
+        "imageName": "pull.png"
+    },
+    {
+        "word": "tickle",
+        "meaning": "痒痒",
+        "imageName": "tickle.png"
+    },
+    {
+        "word": "woman",
+        "meaning": "女士",
+        "imageName": "woman.png"
+    },
+    {
+        "word": "knife",
+        "meaning": "刀",
+        "imageName": "knife.png"
+    },
+    {
+        "word": "busy",
+        "meaning": "忙碌的",
+        "imageName": "busy.png"
+    },
+    {
+        "word": "cucumber",
+        "meaning": "黄瓜",
+        "imageName": "cucumber.png"
+    },
+    {
+        "word": "lemon",
+        "meaning": "柠檬",
+        "imageName": "lemon.png"
+    },
+    {
+        "word": "shine",
+        "meaning": "闪耀",
+        "imageName": "shine.png"
+    },
+    {
+        "word": "fruit",
+        "meaning": "水果",
+        "imageName": "fruit.png"
+    },
+    {
+        "word": "whoosh",
+        "meaning": "哇",
+        "imageName": "whoosh.png"
+    },
+    {
+        "word": "bug",
+        "meaning": "漏洞",
+        "imageName": "bug.png"
+    },
+    {
+        "word": "open",
+        "meaning": "打开",
+        "imageName": "open.png"
+    },
+    {
+        "word": "bacon",
+        "meaning": "熏肉",
+        "imageName": "bacon.png"
+    },
+    {
+        "word": "pizza",
+        "meaning": "比萨",
+        "imageName": "pizza.png"
+    },
+    {
+        "word": "large",
+        "meaning": "大的",
+        "imageName": "large.png"
+    },
+    {
+        "word": "warm",
+        "meaning": "温暖的",
+        "imageName": "warm.png"
+    },
+    {
+        "word": "or",
+        "meaning": "或者",
+        "imageName": "or.png"
+    },
+    {
+        "word": "kitchen",
+        "meaning": "厨房",
+        "imageName": "kitchen.png"
+    },
+    {
+        "word": "try",
+        "meaning": "尝试",
+        "imageName": "try.png"
+    },
+    {
+        "word": "pork",
+        "meaning": "猪肉",
+        "imageName": "pork.png"
+    },
+    {
+        "word": "ride",
+        "meaning": "骑",
+        "imageName": "ride.png"
+    },
+    {
+        "word": "giraffe",
+        "meaning": "长颈鹿",
+        "imageName": "giraffe.png"
+    },
+    {
+        "word": "hammer",
+        "meaning": "锤",
+        "imageName": "hammer.png"
+    },
+    {
+        "word": "star",
+        "meaning": "星星",
+        "imageName": "star.png"
+    },
+    {
+        "word": "form",
+        "meaning": "形式",
+        "imageName": "form.png"
+    },
+    {
+        "word": "art",
+        "meaning": "艺术",
+        "imageName": "art.png"
+    },
+    {
+        "word": "eggplant",
+        "meaning": "茄子",
+        "imageName": "eggplant.png"
+    },
+    {
+        "word": "telephone",
+        "meaning": "电话",
+        "imageName": "telephone.png"
+    },
+    {
+        "word": "job",
+        "meaning": "工作",
+        "imageName": "job.png"
+    },
+    {
+        "word": "fox",
+        "meaning": "狐狸",
+        "imageName": "fox.png"
+    },
+    {
+        "word": "sun",
+        "meaning": "太阳",
+        "imageName": "sun.png"
+    },
+    {
+        "word": "polar",
+        "meaning": "极性",
+        "imageName": "polar.png"
+    },
+    {
+        "word": "how",
+        "meaning": "如何",
+        "imageName": "how.png"
+    },
+    {
+        "word": "leaf",
+        "meaning": "叶子",
+        "imageName": "leaf.png"
+    },
+    {
+        "word": "lunch",
+        "meaning": "午餐",
+        "imageName": "lunch.png"
+    },
+    {
+        "word": "pea",
+        "meaning": "豌豆",
+        "imageName": "pea.png"
+    },
+    {
+        "word": "yucky",
+        "meaning": "好吃",
+        "imageName": "yucky.png"
+    },
+    {
+        "word": "beetle",
+        "meaning": "甲虫",
+        "imageName": "beetle.png"
+    },
+    {
+        "word": "shadow",
+        "meaning": "阴影",
+        "imageName": "shadow.png"
+    },
+    {
+        "word": "hairy",
+        "meaning": "毛茸茸",
+        "imageName": "hairy.png"
+    },
+    {
+        "word": "plate",
+        "meaning": "盘子",
+        "imageName": "plate.png"
+    },
+    {
+        "word": "kick",
+        "meaning": "踢",
+        "imageName": "kick.png"
+    },
+    {
+        "word": "moose",
+        "meaning": "驼鹿",
+        "imageName": "moose.png"
+    },
+    {
+        "word": "egg",
+        "meaning": "蛋",
+        "imageName": "egg.png"
+    },
+    {
+        "word": "bucket",
+        "meaning": "桶",
+        "imageName": "bucket.png"
+    },
+    {
+        "word": "lay",
+        "meaning": "放置",
+        "imageName": "lay.png"
+    },
+    {
+        "word": "brown",
+        "meaning": "棕色的",
+        "imageName": "brown.png"
+    },
+    {
+        "word": "sure",
+        "meaning": "当然",
+        "imageName": "sure.png"
+    },
+    {
+        "word": "fourth",
+        "meaning": "第四",
+        "imageName": "fourth.png"
+    },
+    {
+        "word": "backyard",
+        "meaning": "后院",
+        "imageName": "backyard.png"
+    },
+    {
+        "word": "stripe",
+        "meaning": "条纹",
+        "imageName": "stripe.png"
+    },
+    {
+        "word": "swim",
+        "meaning": "游泳",
+        "imageName": "swim.png"
+    },
+    {
+        "word": "blender",
+        "meaning": "混合器",
+        "imageName": "blender.png"
+    },
+    {
+        "word": "cycle",
+        "meaning": "循环",
+        "imageName": "cycle.png"
+    },
+    {
+        "word": "love",
+        "meaning": "爱",
+        "imageName": "love.png"
+    },
+    {
+        "word": "ocean",
+        "meaning": "海洋",
+        "imageName": "ocean.png"
+    },
+    {
+        "word": "flatten",
+        "meaning": "羊毛",
+        "imageName": "flatten.png"
+    },
+    {
+        "word": "protect",
+        "meaning": "保护",
+        "imageName": "protect.png"
+    },
+    {
+        "word": "breakfast",
+        "meaning": "早餐",
+        "imageName": "breakfast.png"
+    },
+    {
+        "word": "teach",
+        "meaning": "教",
+        "imageName": "teach.png"
+    },
+    {
+        "word": "long",
+        "meaning": "长的",
+        "imageName": "long.png"
+    },
+    {
+        "word": "baby",
+        "meaning": "婴儿",
+        "imageName": "baby.png"
+    },
+    {
+        "word": "spiral",
+        "meaning": "螺旋",
+        "imageName": "spiral.png"
+    },
+    {
+        "word": "night",
+        "meaning": "夜晚",
+        "imageName": "night.png"
+    },
+    {
+        "word": "camera",
+        "meaning": "相机",
+        "imageName": "camera.png"
+    },
+    {
+        "word": "picture",
+        "meaning": "图片",
+        "imageName": "picture.png"
+    },
+    {
+        "word": "pig",
+        "meaning": "猪",
+        "imageName": "pig.png"
+    },
+    {
+        "word": "slide",
+        "meaning": "滑动",
+        "imageName": "slide.png"
+    },
+    {
+        "word": "koala",
+        "meaning": "考拉",
+        "imageName": "koala.png"
+    },
+    {
+        "word": "not",
+        "meaning": "不是",
+        "imageName": "not.png"
+    },
+    {
+        "word": "carve",
+        "meaning": "雕刻",
+        "imageName": "carve.png"
+    },
+    {
+        "word": "third",
+        "meaning": "第三",
+        "imageName": "third.png"
+    },
+    {
+        "word": "boy",
+        "meaning": "男生",
+        "imageName": "boy.png"
+    },
+    {
+        "word": "hunt",
+        "meaning": "打猎",
+        "imageName": "hunt.png"
+    },
+    {
+        "word": "mask",
+        "meaning": "面具",
+        "imageName": "mask.png"
+    },
+    {
+        "word": "salsa",
+        "meaning": "莎莎",
+        "imageName": "salsa.png"
+    },
+    {
+        "word": "Monday",
+        "meaning": "周一",
+        "imageName": "Monday.png"
+    },
+    {
+        "word": "rake",
+        "meaning": "耙",
+        "imageName": "rake.png"
+    },
+    {
+        "word": "alligator",
+        "meaning": "鳄鱼",
+        "imageName": "alligator.png"
+    },
+    {
+        "word": "box",
+        "meaning": "盒子",
+        "imageName": "box.png"
+    },
+    {
+        "word": "under",
+        "meaning": "在下面",
+        "imageName": "under.png"
+    },
+    {
+        "word": "plan",
+        "meaning": "计划",
+        "imageName": "plan.png"
+    },
+    {
+        "word": "pumpkin",
+        "meaning": "南瓜",
+        "imageName": "pumpkin.png"
+    },
+    {
+        "word": "play",
+        "meaning": "玩",
+        "imageName": "play.png"
+    },
+    {
+        "word": "square",
+        "meaning": "正方形",
+        "imageName": "square.png"
+    },
+    {
+        "word": "cute",
+        "meaning": "可爱的",
+        "imageName": "cute.png"
+    },
+    {
+        "word": "story",
+        "meaning": "故事",
+        "imageName": "story.png"
+    },
+    {
+        "word": "gloves",
+        "meaning": "手套",
+        "imageName": "gloves.png"
+    },
+    {
+        "word": "tea",
+        "meaning": "茶",
+        "imageName": "tea.png"
+    },
+    {
+        "word": "white",
+        "meaning": "白色的",
+        "imageName": "white.png"
+    },
+    {
+        "word": "we",
+        "meaning": "我们",
+        "imageName": "we.png"
+    },
+    {
+        "word": "jam",
+        "meaning": "果酱",
+        "imageName": "jam.png"
+    },
+    {
+        "word": "strange",
+        "meaning": "奇怪的",
+        "imageName": "strange.png"
+    },
+    {
+        "word": "horn",
+        "meaning": "喇叭",
+        "imageName": "horn.png"
+    },
+    {
+        "word": "front",
+        "meaning": "正面",
+        "imageName": "front.png"
+    },
+    {
+        "word": "smile",
+        "meaning": "微笑",
+        "imageName": "smile.png"
+    },
+    {
+        "word": "toast",
+        "meaning": "烤面包",
+        "imageName": "toast.png"
+    },
+    {
+        "word": "wait",
+        "meaning": "等待",
+        "imageName": "wait.png"
+    },
+    {
+        "word": "Easter",
+        "meaning": "复活节",
+        "imageName": "Easter.png"
+    },
+    {
+        "word": "wonderful",
+        "meaning": "精彩的",
+        "imageName": "wonderful.png"
+    },
+    {
+        "word": "fifth",
+        "meaning": "第五",
+        "imageName": "fifth.png"
+    },
+    {
+        "word": "snake",
+        "meaning": "蛇",
+        "imageName": "snake.png"
+    },
+    {
+        "word": "child",
+        "meaning": "孩子",
+        "imageName": "child.png"
+    },
+    {
+        "word": "bear",
+        "meaning": "熊",
+        "imageName": "bear.png"
+    },
+    {
+        "word": "plop",
+        "meaning": "plop",
+        "imageName": "plop.png"
+    },
+    {
+        "word": "kite",
+        "meaning": "风筝",
+        "imageName": "kite.png"
+    },
+    {
+        "word": "hide",
+        "meaning": "隐藏",
+        "imageName": "hide.png"
+    },
+    {
+        "word": "now",
+        "meaning": "现在",
+        "imageName": "now.png"
+    },
+    {
+        "word": "small",
+        "meaning": "小的",
+        "imageName": "small.png"
+    },
+    {
+        "word": "kid",
+        "meaning": "孩子",
+        "imageName": "kid.png"
+    },
+    {
+        "word": "furniture",
+        "meaning": "家具",
+        "imageName": "furniture.png"
+    },
+    {
+        "word": "first",
+        "meaning": "第一的",
+        "imageName": "first.png"
+    },
+    {
+        "word": "bag",
+        "meaning": "包",
+        "imageName": "bag.png"
+    },
+    {
+        "word": "mash",
+        "meaning": "捣碎",
+        "imageName": "mash.png"
+    },
+    {
+        "word": "red",
+        "meaning": "红色的",
+        "imageName": "red.png"
+    },
+    {
+        "word": "fish",
+        "meaning": "鱼",
+        "imageName": "fish.png"
+    },
+    {
+        "word": "rip",
+        "meaning": "RIP",
+        "imageName": "rip.png"
+    },
+    {
+        "word": "Tuesday",
+        "meaning": "周二",
+        "imageName": "Tuesday.png"
+    },
+    {
+        "word": "pie",
+        "meaning": "馅饼",
+        "imageName": "pie.png"
+    },
+    {
+        "word": "peel",
+        "meaning": "果皮",
+        "imageName": "peel.png"
+    },
+    {
+        "word": "live",
+        "meaning": "居住",
+        "imageName": "live.png"
+    },
+    {
+        "word": "water bear",
+        "meaning": "水熊",
+        "imageName": "water bear.png"
+    },
+    {
+        "word": "black pepper",
+        "meaning": "黑胡椒",
+        "imageName": "black pepper.png"
+    },
+    {
+        "word": "everyone",
+        "meaning": "每个人",
+        "imageName": "everyone.png"
+    },
+    {
+        "word": "people",
+        "meaning": "人们",
+        "imageName": "people.png"
+    },
+    {
+        "word": "ripe",
+        "meaning": "成熟",
+        "imageName": "ripe.png"
+    },
+    {
+        "word": "close",
+        "meaning": "关闭",
+        "imageName": "close.png"
+    },
+    {
+        "word": "pants",
+        "meaning": "裤子",
+        "imageName": "pants.png"
+    },
+    {
+        "word": "the",
+        "meaning": "这",
+        "imageName": "the.png"
+    },
+    {
+        "word": "soup",
+        "meaning": "汤",
+        "imageName": "soup.png"
+    }
+]
+},
+{"dictName":"raz_D",
+"wordList":[
+    {
+        "word": "silent",
+        "meaning": "沉默的",
+        "imageName": "silent.png"
+    },
+    {
+        "word": "blue jay",
+        "meaning": "蓝色周杰伦",
+        "imageName": "blue jay.png"
+    },
+    {
+        "word": "material",
+        "meaning": "材料",
+        "imageName": "material.png"
+    },
+    {
+        "word": "little",
+        "meaning": "小的",
+        "imageName": "little.png"
+    },
+    {
+        "word": "add",
+        "meaning": "添加",
+        "imageName": "add.png"
+    },
+    {
+        "word": "cage",
+        "meaning": "笼",
+        "imageName": "cage.png"
+    },
+    {
+        "word": "freeway",
+        "meaning": "高速公路",
+        "imageName": "freeway.png"
+    },
+    {
+        "word": "nap",
+        "meaning": "午睡",
+        "imageName": "nap.png"
+    },
+    {
+        "word": "neighborhood",
+        "meaning": "邻里",
+        "imageName": "neighborhood.png"
+    },
+    {
+        "word": "solid",
+        "meaning": "坚硬的",
+        "imageName": "solid.png"
+    },
+    {
+        "word": "spotted",
+        "meaning": "斑",
+        "imageName": "spotted.png"
+    },
+    {
+        "word": "team",
+        "meaning": "团队",
+        "imageName": "team.png"
+    },
+    {
+        "word": "rough",
+        "meaning": "粗糙的",
+        "imageName": "rough.png"
+    },
+    {
+        "word": "imagine",
+        "meaning": "想象",
+        "imageName": "imagine.png"
+    },
+    {
+        "word": "antelope",
+        "meaning": "羚羊",
+        "imageName": "antelope.png"
+    },
+    {
+        "word": "tent",
+        "meaning": "帐篷",
+        "imageName": "tent.png"
+    },
+    {
+        "word": "scoop",
+        "meaning": "舀",
+        "imageName": "scoop.png"
+    },
+    {
+        "word": "nut",
+        "meaning": "坚果",
+        "imageName": "nut.png"
+    },
+    {
+        "word": "quiet",
+        "meaning": "安静的",
+        "imageName": "quiet.png"
+    },
+    {
+        "word": "sled",
+        "meaning": "雪橇",
+        "imageName": "sled.png"
+    },
+    {
+        "word": "check",
+        "meaning": "查看",
+        "imageName": "check.png"
+    },
+    {
+        "word": "feed",
+        "meaning": "喂养",
+        "imageName": "feed.png"
+    },
+    {
+        "word": "good",
+        "meaning": "好的",
+        "imageName": "good.png"
+    },
+    {
+        "word": "shorter",
+        "meaning": "短",
+        "imageName": "shorter.png"
+    },
+    {
+        "word": "neighbor",
+        "meaning": "邻居",
+        "imageName": "neighbor.png"
+    },
+    {
+        "word": "street",
+        "meaning": "街道",
+        "imageName": "street.png"
+    },
+    {
+        "word": "grandmother",
+        "meaning": "祖母",
+        "imageName": "grandmother.png"
+    },
+    {
+        "word": "whale",
+        "meaning": "鲸",
+        "imageName": "whale.png"
+    },
+    {
+        "word": "sing",
+        "meaning": "唱歌",
+        "imageName": "sing.png"
+    },
+    {
+        "word": "mix",
+        "meaning": "混合",
+        "imageName": "mix.png"
+    },
+    {
+        "word": "pillow",
+        "meaning": "枕头",
+        "imageName": "pillow.png"
+    },
+    {
+        "word": "fence",
+        "meaning": "栅栏",
+        "imageName": "fence.png"
+    },
+    {
+        "word": "gill",
+        "meaning": "鳃",
+        "imageName": "gill.png"
+    },
+    {
+        "word": "newspaper",
+        "meaning": "报纸",
+        "imageName": "newspaper.png"
+    },
+    {
+        "word": "hug",
+        "meaning": "拥抱",
+        "imageName": "hug.png"
+    },
+    {
+        "word": "turtle",
+        "meaning": "龟",
+        "imageName": "turtle.png"
+    },
+    {
+        "word": "grow",
+        "meaning": "生长",
+        "imageName": "grow.png"
+    },
+    {
+        "word": "join",
+        "meaning": "加入",
+        "imageName": "join.png"
+    },
+    {
+        "word": "tongue",
+        "meaning": "舌头",
+        "imageName": "tongue.png"
+    },
+    {
+        "word": "snip",
+        "meaning": "狙击",
+        "imageName": "snip.png"
+    },
+    {
+        "word": "cake",
+        "meaning": "蛋糕",
+        "imageName": "cake.png"
+    },
+    {
+        "word": "plant",
+        "meaning": "植物",
+        "imageName": "plant.png"
+    },
+    {
+        "word": "crawl",
+        "meaning": "爬行",
+        "imageName": "crawl.png"
+    },
+    {
+        "word": "beaver",
+        "meaning": "海狸",
+        "imageName": "beaver.png"
+    },
+    {
+        "word": "scratching",
+        "meaning": "刮擦",
+        "imageName": "scratching.png"
+    },
+    {
+        "word": "aunt",
+        "meaning": "阿姨",
+        "imageName": "aunt.png"
+    },
+    {
+        "word": "costume",
+        "meaning": "戏服",
+        "imageName": "costume.png"
+    },
+    {
+        "word": "teacher",
+        "meaning": "老师",
+        "imageName": "teacher.png"
+    },
+    {
+        "word": "surface",
+        "meaning": "表面",
+        "imageName": "surface.png"
+    },
+    {
+        "word": "fright",
+        "meaning": "恐惧",
+        "imageName": "fright.png"
+    },
+    {
+        "word": "teddy bear",
+        "meaning": "玩具熊",
+        "imageName": "teddy bear.png"
+    },
+    {
+        "word": "alone",
+        "meaning": "独自的",
+        "imageName": "alone.png"
+    },
+    {
+        "word": "amazing",
+        "meaning": "惊人的",
+        "imageName": "amazing.png"
+    },
+    {
+        "word": "fern",
+        "meaning": "蕨类",
+        "imageName": "fern.png"
+    },
+    {
+        "word": "choose",
+        "meaning": "选择",
+        "imageName": "choose.png"
+    },
+    {
+        "word": "taste",
+        "meaning": "品尝",
+        "imageName": "taste.png"
+    },
+    {
+        "word": "hair",
+        "meaning": "头发",
+        "imageName": "hair.png"
+    },
+    {
+        "word": "hat",
+        "meaning": "帽子",
+        "imageName": "hat.png"
+    },
+    {
+        "word": "fog",
+        "meaning": "多雾路段",
+        "imageName": "fog.png"
+    },
+    {
+        "word": "wake",
+        "meaning": "唤醒",
+        "imageName": "wake.png"
+    },
+    {
+        "word": "jump",
+        "meaning": "跳",
+        "imageName": "jump.png"
+    },
+    {
+        "word": "fuzzy",
+        "meaning": "模糊",
+        "imageName": "fuzzy.png"
+    },
+    {
+        "word": "book",
+        "meaning": "书",
+        "imageName": "book.png"
+    },
+    {
+        "word": "taxi",
+        "meaning": "出租车",
+        "imageName": "taxi.png"
+    },
+    {
+        "word": "loon",
+        "meaning": "懒人",
+        "imageName": "loon.png"
+    },
+    {
+        "word": "server",
+        "meaning": "服务器",
+        "imageName": "server.png"
+    },
+    {
+        "word": "jumbo",
+        "meaning": "巨型",
+        "imageName": "jumbo.png"
+    },
+    {
+        "word": "band",
+        "meaning": "乐队",
+        "imageName": "band.png"
+    },
+    {
+        "word": "carefully",
+        "meaning": "小心",
+        "imageName": "carefully.png"
+    },
+    {
+        "word": "air",
+        "meaning": "空气",
+        "imageName": "air.png"
+    },
+    {
+        "word": "gray",
+        "meaning": "灰色的",
+        "imageName": "gray.png"
+    },
+    {
+        "word": "bandanna",
+        "meaning": "头巾",
+        "imageName": "bandanna.png"
+    },
+    {
+        "word": "bookstore",
+        "meaning": "书店",
+        "imageName": "bookstore.png"
+    },
+    {
+        "word": "wasp",
+        "meaning": "黄蜂",
+        "imageName": "wasp.png"
+    },
+    {
+        "word": "make",
+        "meaning": "制作",
+        "imageName": "make.png"
+    },
+    {
+        "word": ".DS_Store",
+        "meaning": ".ds_store",
+        "imageName": ".DS_Store"
+    },
+    {
+        "word": "bog",
+        "meaning": "沼泽",
+        "imageName": "bog.png"
+    },
+    {
+        "word": "greater",
+        "meaning": "更大",
+        "imageName": "greater.png"
+    },
+    {
+        "word": "plenty",
+        "meaning": "很多",
+        "imageName": "plenty.png"
+    },
+    {
+        "word": "young",
+        "meaning": "年轻的",
+        "imageName": "young.png"
+    },
+    {
+        "word": "inside",
+        "meaning": "里面",
+        "imageName": "inside.png"
+    },
+    {
+        "word": "game",
+        "meaning": "游戏",
+        "imageName": "game.png"
+    },
+    {
+        "word": "travel",
+        "meaning": "旅行",
+        "imageName": "travel.png"
+    },
+    {
+        "word": "miner",
+        "meaning": "矿工",
+        "imageName": "miner.png"
+    },
+    {
+        "word": "school",
+        "meaning": "学校",
+        "imageName": "school.png"
+    },
+    {
+        "word": "pocket",
+        "meaning": "口袋",
+        "imageName": "pocket.png"
+    },
+    {
+        "word": "squash",
+        "meaning": "壁球",
+        "imageName": "squash.png"
+    },
+    {
+        "word": "return",
+        "meaning": "返回",
+        "imageName": "return.png"
+    },
+    {
+        "word": "park",
+        "meaning": "公园",
+        "imageName": "park.png"
+    },
+    {
+        "word": "ago",
+        "meaning": "前",
+        "imageName": "ago.png"
+    },
+    {
+        "word": "number",
+        "meaning": "数字",
+        "imageName": "number.png"
+    },
+    {
+        "word": "collect",
+        "meaning": "收集",
+        "imageName": "collect.png"
+    },
+    {
+        "word": "swamp",
+        "meaning": "沼泽",
+        "imageName": "swamp.png"
+    },
+    {
+        "word": "shave",
+        "meaning": "刮胡子",
+        "imageName": "shave.png"
+    },
+    {
+        "word": "curved",
+        "meaning": "弯曲",
+        "imageName": "curved.png"
+    },
+    {
+        "word": "silly",
+        "meaning": "愚蠢的",
+        "imageName": "silly.png"
+    },
+    {
+        "word": "outer space",
+        "meaning": "外层空间",
+        "imageName": "outer space.png"
+    },
+    {
+        "word": "dirt",
+        "meaning": "污垢",
+        "imageName": "dirt.png"
+    },
+    {
+        "word": "catch",
+        "meaning": "抓住",
+        "imageName": "catch.png"
+    },
+    {
+        "word": "deer",
+        "meaning": "鹿",
+        "imageName": "deer.png"
+    },
+    {
+        "word": "town",
+        "meaning": "镇",
+        "imageName": "town.png"
+    },
+    {
+        "word": "bird feeder",
+        "meaning": "喂鸟器",
+        "imageName": "bird feeder.png"
+    },
+    {
+        "word": "thin",
+        "meaning": "薄的",
+        "imageName": "thin.png"
+    },
+    {
+        "word": "brush",
+        "meaning": "刷子",
+        "imageName": "brush.png"
+    },
+    {
+        "word": "sometimes",
+        "meaning": "有时",
+        "imageName": "sometimes.png"
+    },
+    {
+        "word": "animals",
+        "meaning": "动物",
+        "imageName": "animals.png"
+    },
+    {
+        "word": "give up",
+        "meaning": "放弃",
+        "imageName": "give up.png"
+    },
+    {
+        "word": "pencil box",
+        "meaning": "铅笔盒",
+        "imageName": "pencil box.png"
+    },
+    {
+        "word": "store",
+        "meaning": "店铺",
+        "imageName": "store.png"
+    },
+    {
+        "word": "shed",
+        "meaning": "棚",
+        "imageName": "shed.png"
+    },
+    {
+        "word": "striped",
+        "meaning": "有条纹的",
+        "imageName": "striped.png"
+    },
+    {
+        "word": "feast",
+        "meaning": "盛宴",
+        "imageName": "feast.png"
+    },
+    {
+        "word": "get",
+        "meaning": "得到",
+        "imageName": "get.png"
+    },
+    {
+        "word": "touch",
+        "meaning": "触碰",
+        "imageName": "touch.png"
+    },
+    {
+        "word": "outside",
+        "meaning": "外部",
+        "imageName": "outside.png"
+    },
+    {
+        "word": "plastic",
+        "meaning": "塑料",
+        "imageName": "plastic.png"
+    },
+    {
+        "word": "tadpole",
+        "meaning": "蝌蚪",
+        "imageName": "tadpole.png"
+    },
+    {
+        "word": "sleep",
+        "meaning": "睡觉",
+        "imageName": "sleep.png"
+    },
+    {
+        "word": "blunt",
+        "meaning": "钝",
+        "imageName": "blunt.png"
+    },
+    {
+        "word": "wiggly",
+        "meaning": "摇摆不定",
+        "imageName": "wiggly.png"
+    },
+    {
+        "word": "different",
+        "meaning": "不同的",
+        "imageName": "different.png"
+    },
+    {
+        "word": "north",
+        "meaning": "北",
+        "imageName": "north.png"
+    },
+    {
+        "word": "relax",
+        "meaning": "放松",
+        "imageName": "relax.png"
+    },
+    {
+        "word": "give",
+        "meaning": "给",
+        "imageName": "give.png"
+    },
+    {
+        "word": "wheat",
+        "meaning": "小麦",
+        "imageName": "wheat.png"
+    },
+    {
+        "word": "arm",
+        "meaning": "手臂",
+        "imageName": "arm.png"
+    },
+    {
+        "word": "bridge",
+        "meaning": "桥",
+        "imageName": "bridge.png"
+    },
+    {
+        "word": "fewer",
+        "meaning": "更少",
+        "imageName": "fewer.png"
+    },
+    {
+        "word": "city",
+        "meaning": "城市",
+        "imageName": "city.png"
+    },
+    {
+        "word": "wheel",
+        "meaning": "车轮",
+        "imageName": "wheel.png"
+    },
+    {
+        "word": "silky",
+        "meaning": "丝滑",
+        "imageName": "silky.png"
+    },
+    {
+        "word": "bubble",
+        "meaning": "气泡",
+        "imageName": "bubble.png"
+    },
+    {
+        "word": "dry",
+        "meaning": "干燥",
+        "imageName": "dry.png"
+    },
+    {
+        "word": "dime",
+        "meaning": "一角钱",
+        "imageName": "dime.png"
+    },
+    {
+        "word": "catcher",
+        "meaning": "捕手",
+        "imageName": "catcher.png"
+    },
+    {
+        "word": "faster",
+        "meaning": "快点",
+        "imageName": "faster.png"
+    },
+    {
+        "word": "father's day",
+        "meaning": "父亲节",
+        "imageName": "father's day.png"
+    },
+    {
+        "word": "mammal",
+        "meaning": "哺乳动物",
+        "imageName": "mammal.png"
+    },
+    {
+        "word": "clear",
+        "meaning": "清除",
+        "imageName": "clear.png"
+    },
+    {
+        "word": "mittens",
+        "meaning": "手套",
+        "imageName": "mittens.png"
+    },
+    {
+        "word": "paw",
+        "meaning": "爪子",
+        "imageName": "paw.png"
+    },
+    {
+        "word": "move",
+        "meaning": "移动",
+        "imageName": "move.png"
+    },
+    {
+        "word": "round",
+        "meaning": "圆形的",
+        "imageName": "round.png"
+    },
+    {
+        "word": "country",
+        "meaning": "国家",
+        "imageName": "country.png"
+    },
+    {
+        "word": "float",
+        "meaning": "漂浮",
+        "imageName": "float.png"
+    },
+    {
+        "word": "snout",
+        "meaning": "鼻子",
+        "imageName": "snout.png"
+    },
+    {
+        "word": "road",
+        "meaning": "路",
+        "imageName": "road.png"
+    },
+    {
+        "word": "bike",
+        "meaning": "自行车",
+        "imageName": "bike.png"
+    },
+    {
+        "word": "hunter",
+        "meaning": "猎人",
+        "imageName": "hunter.png"
+    },
+    {
+        "word": "puzzle",
+        "meaning": "谜",
+        "imageName": "puzzle.png"
+    },
+    {
+        "word": "octopus",
+        "meaning": "章鱼",
+        "imageName": "octopus.png"
+    },
+    {
+        "word": "beet",
+        "meaning": "甜菜",
+        "imageName": "beet.png"
+    },
+    {
+        "word": "carrot",
+        "meaning": "胡萝卜",
+        "imageName": "carrot.png"
+    },
+    {
+        "word": "ruin",
+        "meaning": "废墟",
+        "imageName": "ruin.png"
+    },
+    {
+        "word": "squeal",
+        "meaning": "尖叫",
+        "imageName": "squeal.png"
+    },
+    {
+        "word": "fall",
+        "meaning": "落下",
+        "imageName": "fall.png"
+    },
+    {
+        "word": "barn",
+        "meaning": "谷仓",
+        "imageName": "barn.png"
+    },
+    {
+        "word": "curious",
+        "meaning": "好奇的",
+        "imageName": "curious.png"
+    },
+    {
+        "word": "mistake",
+        "meaning": "错误",
+        "imageName": "mistake.png"
+    },
+    {
+        "word": "mind",
+        "meaning": "头脑",
+        "imageName": "mind.png"
+    },
+    {
+        "word": "change",
+        "meaning": "改变",
+        "imageName": "change.png"
+    },
+    {
+        "word": "enough",
+        "meaning": "足够的",
+        "imageName": "enough.png"
+    },
+    {
+        "word": "paint",
+        "meaning": "画",
+        "imageName": "paint.png"
+    },
+    {
+        "word": "zebra",
+        "meaning": "斑马",
+        "imageName": "zebra.png"
+    },
+    {
+        "word": "community",
+        "meaning": "社区",
+        "imageName": "community.png"
+    },
+    {
+        "word": "dig",
+        "meaning": "挖",
+        "imageName": "dig.png"
+    },
+    {
+        "word": "blueberry",
+        "meaning": "蓝莓",
+        "imageName": "blueberry.png"
+    },
+    {
+        "word": "batter",
+        "meaning": "连击",
+        "imageName": "batter.png"
+    },
+    {
+        "word": "cookie",
+        "meaning": "曲奇饼",
+        "imageName": "cookie.png"
+    },
+    {
+        "word": "ranger",
+        "meaning": "游侠",
+        "imageName": "ranger.png"
+    },
+    {
+        "word": "real",
+        "meaning": "真实的",
+        "imageName": "real.png"
+    },
+    {
+        "word": "hold",
+        "meaning": "抓住",
+        "imageName": "hold.png"
+    },
+    {
+        "word": "flour",
+        "meaning": "面粉",
+        "imageName": "flour.png"
+    },
+    {
+        "word": "win",
+        "meaning": "赢",
+        "imageName": "win.png"
+    },
+    {
+        "word": "shirt",
+        "meaning": "衬衫",
+        "imageName": "shirt.png"
+    },
+    {
+        "word": "dock",
+        "meaning": "码头",
+        "imageName": "dock.png"
+    },
+    {
+        "word": "couch",
+        "meaning": "长椅",
+        "imageName": "couch.png"
+    },
+    {
+        "word": "important",
+        "meaning": "重要的",
+        "imageName": "important.png"
+    },
+    {
+        "word": "greatest",
+        "meaning": "最伟大",
+        "imageName": "greatest.png"
+    },
+    {
+        "word": "tortoise",
+        "meaning": "龟",
+        "imageName": "tortoise.png"
+    },
+    {
+        "word": "bet",
+        "meaning": "赌注",
+        "imageName": "bet.png"
+    },
+    {
+        "word": "bakery",
+        "meaning": "面包店",
+        "imageName": "bakery.png"
+    },
+    {
+        "word": "veaetable",
+        "meaning": "审理",
+        "imageName": "veaetable.png"
+    },
+    {
+        "word": "take care of",
+        "meaning": "照顾好",
+        "imageName": "take care of.png"
+    },
+    {
+        "word": "room",
+        "meaning": "房间",
+        "imageName": "room.png"
+    },
+    {
+        "word": "camp",
+        "meaning": "营",
+        "imageName": "camp.png"
+    },
+    {
+        "word": "finger",
+        "meaning": "手指",
+        "imageName": "finger.png"
+    },
+    {
+        "word": "because",
+        "meaning": "因为",
+        "imageName": "because.png"
+    },
+    {
+        "word": "counter",
+        "meaning": "柜台",
+        "imageName": "counter.png"
+    },
+    {
+        "word": "mailbox",
+        "meaning": "邮箱",
+        "imageName": "mailbox.png"
+    },
+    {
+        "word": "salt water",
+        "meaning": "盐水",
+        "imageName": "salt water.png"
+    },
+    {
+        "word": "music",
+        "meaning": "音乐",
+        "imageName": "music.png"
+    },
+    {
+        "word": "safe",
+        "meaning": "安全的",
+        "imageName": "safe.png"
+    },
+    {
+        "word": "nickel",
+        "meaning": "镍",
+        "imageName": "nickel.png"
+    },
+    {
+        "word": "doctor",
+        "meaning": "医生",
+        "imageName": "doctor.png"
+    },
+    {
+        "word": "morning",
+        "meaning": "早晨",
+        "imageName": "morning.png"
+    },
+    {
+        "word": "library",
+        "meaning": "图书馆",
+        "imageName": "library.png"
+    },
+    {
+        "word": "igloo",
+        "meaning": "冰屋",
+        "imageName": "igloo.png"
+    },
+    {
+        "word": "recycle",
+        "meaning": "回收",
+        "imageName": "recycle.png"
+    },
+    {
+        "word": "dollar",
+        "meaning": "美元",
+        "imageName": "dollar.png"
+    },
+    {
+        "word": "tricky",
+        "meaning": "棘手",
+        "imageName": "tricky.png"
+    },
+    {
+        "word": "tape",
+        "meaning": "磁带",
+        "imageName": "tape.png"
+    },
+    {
+        "word": "home",
+        "meaning": "家",
+        "imageName": "home.png"
+    },
+    {
+        "word": "shop",
+        "meaning": "店铺",
+        "imageName": "shop.png"
+    },
+    {
+        "word": "need",
+        "meaning": "需要",
+        "imageName": "need.png"
+    },
+    {
+        "word": "onion",
+        "meaning": "洋葱",
+        "imageName": "onion.png"
+    },
+    {
+        "word": "cheetah",
+        "meaning": "猎豹",
+        "imageName": "cheetah.png"
+    },
+    {
+        "word": "gorilla",
+        "meaning": "大猩猩",
+        "imageName": "gorilla.png"
+    },
+    {
+        "word": "winter",
+        "meaning": "冬天",
+        "imageName": "winter.png"
+    },
+    {
+        "word": "marshmallow",
+        "meaning": "棉花糖",
+        "imageName": "marshmallow.png"
+    },
+    {
+        "word": "wear",
+        "meaning": "穿",
+        "imageName": "wear.png"
+    },
+    {
+        "word": "ferry boat",
+        "meaning": "渡轮船",
+        "imageName": "ferry boat.png"
+    },
+    {
+        "word": "butterfly",
+        "meaning": "蝴蝶",
+        "imageName": "butterfly.png"
+    },
+    {
+        "word": "sauce",
+        "meaning": "酱",
+        "imageName": "sauce.png"
+    },
+    {
+        "word": "spike",
+        "meaning": "长钉",
+        "imageName": "spike.png"
+    },
+    {
+        "word": "nothing",
+        "meaning": "没有什么",
+        "imageName": "nothing.png"
+    },
+    {
+        "word": "know",
+        "meaning": "知道",
+        "imageName": "know.png"
+    },
+    {
+        "word": "race",
+        "meaning": "种族",
+        "imageName": "race.png"
+    },
+    {
+        "word": "wing",
+        "meaning": "翼",
+        "imageName": "wing.png"
+    },
+    {
+        "word": "salty",
+        "meaning": "咸",
+        "imageName": "salty.png"
+    },
+    {
+        "word": "rock",
+        "meaning": "岩石",
+        "imageName": "rock.png"
+    },
+    {
+        "word": "south",
+        "meaning": "南",
+        "imageName": "south.png"
+    },
+    {
+        "word": "stick",
+        "meaning": "戳",
+        "imageName": "stick.png"
+    },
+    {
+        "word": "trunker",
+        "meaning": "树干",
+        "imageName": "trunker.png"
+    },
+    {
+        "word": "field",
+        "meaning": "场地",
+        "imageName": "field.png"
+    },
+    {
+        "word": "enjoy",
+        "meaning": "享受",
+        "imageName": "enjoy.png"
+    },
+    {
+        "word": "burrow",
+        "meaning": "洞穴",
+        "imageName": "burrow.png"
+    },
+    {
+        "word": "bumpy",
+        "meaning": "起疙瘩的",
+        "imageName": "bumpy.png"
+    },
+    {
+        "word": "why",
+        "meaning": "为什么",
+        "imageName": "why.png"
+    },
+    {
+        "word": "luck",
+        "meaning": "运气",
+        "imageName": "luck.png"
+    },
+    {
+        "word": "dentist",
+        "meaning": "牙医",
+        "imageName": "dentist.png"
+    },
+    {
+        "word": "hang",
+        "meaning": "悬挂",
+        "imageName": "hang.png"
+    },
+    {
+        "word": "mud",
+        "meaning": "泥",
+        "imageName": "mud.png"
+    },
+    {
+        "word": "old",
+        "meaning": "老的",
+        "imageName": "old.png"
+    },
+    {
+        "word": "path",
+        "meaning": "小路",
+        "imageName": "path.png"
+    },
+    {
+        "word": "nervous",
+        "meaning": "紧张的",
+        "imageName": "nervous.png"
+    },
+    {
+        "word": "reindeer",
+        "meaning": "驯鹿",
+        "imageName": "reindeer.png"
+    },
+    {
+        "word": "wood",
+        "meaning": "木头",
+        "imageName": "wood.png"
+    },
+    {
+        "word": "flipper",
+        "meaning": "翻板",
+        "imageName": "flipper.png"
+    },
+    {
+        "word": "captain",
+        "meaning": "队长",
+        "imageName": "captain.png"
+    },
+    {
+        "word": "wing covers",
+        "meaning": "机翼盖",
+        "imageName": "wing covers.png"
+    },
+    {
+        "word": "scared",
+        "meaning": "害怕的",
+        "imageName": "scared.png"
+    },
+    {
+        "word": "owl",
+        "meaning": "猫头鹰",
+        "imageName": "owl.png"
+    },
+    {
+        "word": "short",
+        "meaning": "短的",
+        "imageName": "short.png"
+    },
+    {
+        "word": "mossy",
+        "meaning": "苔藓",
+        "imageName": "mossy.png"
+    },
+    {
+        "word": "house",
+        "meaning": "房子",
+        "imageName": "house.png"
+    },
+    {
+        "word": "singer",
+        "meaning": "歌手",
+        "imageName": "singer.png"
+    },
+    {
+        "word": "sound",
+        "meaning": "声音",
+        "imageName": "sound.png"
+    },
+    {
+        "word": "zero",
+        "meaning": "零",
+        "imageName": "zero.png"
+    },
+    {
+        "word": "bump",
+        "meaning": "撞",
+        "imageName": "bump.png"
+    },
+    {
+        "word": "pointy",
+        "meaning": "尖头",
+        "imageName": "pointy.png"
+    },
+    {
+        "word": "slow",
+        "meaning": "慢的",
+        "imageName": "slow.png"
+    },
+    {
+        "word": "pile",
+        "meaning": "桩",
+        "imageName": "pile.png"
+    },
+    {
+        "word": "pilot",
+        "meaning": "飞行员",
+        "imageName": "pilot.png"
+    },
+    {
+        "word": "trim",
+        "meaning": "修剪",
+        "imageName": "trim.png"
+    },
+    {
+        "word": "fresh",
+        "meaning": "新鲜的",
+        "imageName": "fresh.png"
+    },
+    {
+        "word": "grocer",
+        "meaning": "杂货商",
+        "imageName": "grocer.png"
+    },
+    {
+        "word": "bed",
+        "meaning": "床",
+        "imageName": "bed.png"
+    },
+    {
+        "word": "end",
+        "meaning": "结尾",
+        "imageName": "end.png"
+    },
+    {
+        "word": "eraser",
+        "meaning": "橡皮",
+        "imageName": "eraser.png"
+    },
+    {
+        "word": "dinner",
+        "meaning": "晚餐",
+        "imageName": "dinner.png"
+    },
+    {
+        "word": "construcion work",
+        "meaning": "施工工作",
+        "imageName": "construcion work.png"
+    },
+    {
+        "word": "flashlight",
+        "meaning": "手电筒",
+        "imageName": "flashlight.png"
+    },
+    {
+        "word": "spring",
+        "meaning": "春天",
+        "imageName": "spring.png"
+    },
+    {
+        "word": "socks",
+        "meaning": "袜子",
+        "imageName": "socks.png"
+    },
+    {
+        "word": "shape",
+        "meaning": "形状",
+        "imageName": "shape.png"
+    },
+    {
+        "word": "lose",
+        "meaning": "失去",
+        "imageName": "lose.png"
+    },
+    {
+        "word": "closet",
+        "meaning": "壁橱",
+        "imageName": "closet.png"
+    },
+    {
+        "word": "search",
+        "meaning": "搜索",
+        "imageName": "search.png"
+    },
+    {
+        "word": "blanket",
+        "meaning": "毯子",
+        "imageName": "blanket.png"
+    },
+    {
+        "word": "pepper",
+        "meaning": "胡椒",
+        "imageName": "pepper.png"
+    },
+    {
+        "word": "puffy",
+        "meaning": "蓬松",
+        "imageName": "puffy.png"
+    },
+    {
+        "word": "fix",
+        "meaning": "使固定",
+        "imageName": "fix.png"
+    },
+    {
+        "word": "heart",
+        "meaning": "心",
+        "imageName": "heart.png"
+    },
+    {
+        "word": "quarter",
+        "meaning": "四分之一",
+        "imageName": "quarter.png"
+    },
+    {
+        "word": "keep",
+        "meaning": "保持",
+        "imageName": "keep.png"
+    },
+    {
+        "word": "run",
+        "meaning": "跑步",
+        "imageName": "run.png"
+    },
+    {
+        "word": "sleepy",
+        "meaning": "困",
+        "imageName": "sleepy.png"
+    },
+    {
+        "word": "mane",
+        "meaning": "鬃毛",
+        "imageName": "mane.png"
+    },
+    {
+        "word": "birdhouse",
+        "meaning": "鸟屋",
+        "imageName": "birdhouse.png"
+    },
+    {
+        "word": "healthy",
+        "meaning": "健康",
+        "imageName": "healthy.png"
+    },
+    {
+        "word": "eyesight",
+        "meaning": "视力",
+        "imageName": "eyesight.png"
+    },
+    {
+        "word": "surprise",
+        "meaning": "惊喜",
+        "imageName": "surprise.png"
+    },
+    {
+        "word": "student",
+        "meaning": "学生",
+        "imageName": "student.png"
+    },
+    {
+        "word": "breath",
+        "meaning": "气息",
+        "imageName": "breath.png"
+    },
+    {
+        "word": "birthday",
+        "meaning": "生日",
+        "imageName": "birthday.png"
+    },
+    {
+        "word": "pot",
+        "meaning": "锅",
+        "imageName": "pot.png"
+    },
+    {
+        "word": "slice",
+        "meaning": "片",
+        "imageName": "slice.png"
+    },
+    {
+        "word": "find",
+        "meaning": "寻找",
+        "imageName": "find.png"
+    },
+    {
+        "word": "farmhouse",
+        "meaning": "农家",
+        "imageName": "farmhouse.png"
+    },
+    {
+        "word": "fin",
+        "meaning": "鳍",
+        "imageName": "fin.png"
+    },
+    {
+        "word": "mouse",
+        "meaning": "老鼠",
+        "imageName": "mouse.png"
+    },
+    {
+        "word": "grass",
+        "meaning": "草",
+        "imageName": "grass.png"
+    },
+    {
+        "word": "tart",
+        "meaning": "酸",
+        "imageName": "tart.png"
+    },
+    {
+        "word": "paper clips",
+        "meaning": "纸夹",
+        "imageName": "paper clips.png"
+    },
+    {
+        "word": "stone",
+        "meaning": "石头",
+        "imageName": "stone.png"
+    },
+    {
+        "word": "smooth",
+        "meaning": "光滑的",
+        "imageName": "smooth.png"
+    },
+    {
+        "word": "she",
+        "meaning": "她",
+        "imageName": "she.png"
+    },
+    {
+        "word": "dive",
+        "meaning": "潜水",
+        "imageName": "dive.png"
+    },
+    {
+        "word": "lonely",
+        "meaning": "孤独",
+        "imageName": "lonely.png"
+    },
+    {
+        "word": "without",
+        "meaning": "没有",
+        "imageName": "without.png"
+    },
+    {
+        "word": "total",
+        "meaning": "全部的",
+        "imageName": "total.png"
+    },
+    {
+        "word": "pond",
+        "meaning": "池塘",
+        "imageName": "pond.png"
+    },
+    {
+        "word": "taxi 2",
+        "meaning": "出租车2",
+        "imageName": "taxi 2.png"
+    },
+    {
+        "word": "squirrel",
+        "meaning": "松鼠",
+        "imageName": "squirrel.png"
+    },
+    {
+        "word": "menu",
+        "meaning": "菜单",
+        "imageName": "menu.png"
+    },
+    {
+        "word": "password",
+        "meaning": "密码",
+        "imageName": "password.png"
+    },
+    {
+        "word": "hit",
+        "meaning": "打",
+        "imageName": "hit.png"
+    },
+    {
+        "word": "evening",
+        "meaning": "晚上",
+        "imageName": "evening.png"
+    },
+    {
+        "word": "hungry",
+        "meaning": "饥饿的",
+        "imageName": "hungry.png"
+    },
+    {
+        "word": "insect",
+        "meaning": "昆虫",
+        "imageName": "insect.png"
+    },
+    {
+        "word": "done",
+        "meaning": "完毕",
+        "imageName": "done.png"
+    },
+    {
+        "word": "cold",
+        "meaning": "寒冷的",
+        "imageName": "cold.png"
+    },
+    {
+        "word": "grandfather",
+        "meaning": "祖父",
+        "imageName": "grandfather.png"
+    },
+    {
+        "word": "baker",
+        "meaning": "贝克",
+        "imageName": "baker.png"
+    },
+    {
+        "word": "snack",
+        "meaning": "小吃",
+        "imageName": "snack.png"
+    },
+    {
+        "word": "coat",
+        "meaning": "外套",
+        "imageName": "coat.png"
+    },
+    {
+        "word": "worker",
+        "meaning": "工人",
+        "imageName": "worker.png"
+    },
+    {
+        "word": "thick",
+        "meaning": "厚的",
+        "imageName": "thick.png"
+    },
+    {
+        "word": "grocery",
+        "meaning": "杂货店",
+        "imageName": "grocery.png"
+    },
+    {
+        "word": "cave",
+        "meaning": "洞穴",
+        "imageName": "cave.png"
+    },
+    {
+        "word": "blackberry",
+        "meaning": "黑莓",
+        "imageName": "blackberry.png"
+    },
+    {
+        "word": "ear",
+        "meaning": "耳朵",
+        "imageName": "ear.png"
+    },
+    {
+        "word": "seed",
+        "meaning": "种子",
+        "imageName": "seed.png"
+    },
+    {
+        "word": "prop",
+        "meaning": "支柱",
+        "imageName": "prop.png"
+    },
+    {
+        "word": "crunch",
+        "meaning": "紧缩",
+        "imageName": "crunch.png"
+    },
+    {
+        "word": "pencil drawer",
+        "meaning": "铅笔抽屉",
+        "imageName": "pencil drawer.png"
+    },
+    {
+        "word": "braid",
+        "meaning": "编织",
+        "imageName": "braid.png"
+    },
+    {
+        "word": "airport",
+        "meaning": "飞机场",
+        "imageName": "airport.png"
+    },
+    {
+        "word": "clean",
+        "meaning": "干净的",
+        "imageName": "clean.png"
+    },
+    {
+        "word": "babysitter",
+        "meaning": "保姆",
+        "imageName": "babysitter.png"
+    },
+    {
+        "word": "chair",
+        "meaning": "椅子",
+        "imageName": "chair.png"
+    },
+    {
+        "word": "cup",
+        "meaning": "杯子",
+        "imageName": "cup.png"
+    },
+    {
+        "word": "soil",
+        "meaning": "土壤",
+        "imageName": "soil.png"
+    },
+    {
+        "word": "read",
+        "meaning": "读",
+        "imageName": "read.png"
+    },
+    {
+        "word": "grasshopper",
+        "meaning": "蚱蜢",
+        "imageName": "grasshopper.png"
+    },
+    {
+        "word": "want",
+        "meaning": "想",
+        "imageName": "want.png"
+    },
+    {
+        "word": "afternoon",
+        "meaning": "下午",
+        "imageName": "afternoon.png"
+    },
+    {
+        "word": "orchard",
+        "meaning": "果园",
+        "imageName": "orchard.png"
+    },
+    {
+        "word": "mountain",
+        "meaning": "山",
+        "imageName": "mountain.png"
+    },
+    {
+        "word": "see",
+        "meaning": "看",
+        "imageName": "see.png"
+    },
+    {
+        "word": "schoolwork",
+        "meaning": "学校工作",
+        "imageName": "schoolwork.png"
+    },
+    {
+        "word": "he",
+        "meaning": "他",
+        "imageName": "he.png"
+    },
+    {
+        "word": "playground",
+        "meaning": "操场",
+        "imageName": "playground.png"
+    },
+    {
+        "word": "ice",
+        "meaning": "冰",
+        "imageName": "ice.png"
+    },
+    {
+        "word": "cattail",
+        "meaning": "香蒲",
+        "imageName": "cattail.png"
+    },
+    {
+        "word": "carry",
+        "meaning": "携带",
+        "imageName": "carry.png"
+    },
+    {
+        "word": "frog",
+        "meaning": "青蛙",
+        "imageName": "frog.png"
+    },
+    {
+        "word": "trip",
+        "meaning": "旅行",
+        "imageName": "trip.png"
+    },
+    {
+        "word": "sweet",
+        "meaning": "甜的",
+        "imageName": "sweet.png"
+    },
+    {
+        "word": "haircut",
+        "meaning": "理发",
+        "imageName": "haircut.png"
+    },
+    {
+        "word": "still",
+        "meaning": "仍然",
+        "imageName": "still.png"
+    },
+    {
+        "word": "count",
+        "meaning": "数数",
+        "imageName": "count.png"
+    },
+    {
+        "word": "water",
+        "meaning": "水",
+        "imageName": "water.png"
+    },
+    {
+        "word": "less",
+        "meaning": "较少的",
+        "imageName": "less.png"
+    },
+    {
+        "word": "hear",
+        "meaning": "听到",
+        "imageName": "hear.png"
+    },
+    {
+        "word": "pay",
+        "meaning": "支付",
+        "imageName": "pay.png"
+    },
+    {
+        "word": "door",
+        "meaning": "门",
+        "imageName": "door.png"
+    },
+    {
+        "word": "subway",
+        "meaning": "地铁",
+        "imageName": "subway.png"
+    },
+    {
+        "word": "half",
+        "meaning": "一半",
+        "imageName": "half.png"
+    },
+    {
+        "word": "freckel",
+        "meaning": "弗雷克尔",
+        "imageName": "freckel.png"
+    },
+    {
+        "word": "penny",
+        "meaning": "一分钱",
+        "imageName": "penny.png"
+    },
+    {
+        "word": "listen",
+        "meaning": "听",
+        "imageName": "listen.png"
+    },
+    {
+        "word": "sharp",
+        "meaning": "锋利的",
+        "imageName": "sharp.png"
+    },
+    {
+        "word": "sunlight",
+        "meaning": "阳光",
+        "imageName": "sunlight.png"
+    },
+    {
+        "word": "caretaker",
+        "meaning": "看守",
+        "imageName": "caretaker.png"
+    },
+    {
+        "word": "cent",
+        "meaning": "百分点",
+        "imageName": "cent.png"
+    },
+    {
+        "word": "painter",
+        "meaning": "画家",
+        "imageName": "painter.png"
+    },
+    {
+        "word": "give back",
+        "meaning": "回馈",
+        "imageName": "give back.png"
+    },
+    {
+        "word": "ground",
+        "meaning": "地面",
+        "imageName": "ground.png"
+    },
+    {
+        "word": "preschool",
+        "meaning": "学前班",
+        "imageName": "preschool.png"
+    },
+    {
+        "word": "behind",
+        "meaning": "在后面",
+        "imageName": "behind.png"
+    },
+    {
+        "word": "become",
+        "meaning": "变得",
+        "imageName": "become.png"
+    },
+    {
+        "word": "visit",
+        "meaning": "访问",
+        "imageName": "visit.png"
+    },
+    {
+        "word": "firefighter",
+        "meaning": "消防队员",
+        "imageName": "firefighter.png"
+    },
+    {
+        "word": "car",
+        "meaning": "车",
+        "imageName": "car.png"
+    },
+    {
+        "word": "litter",
+        "meaning": "垃圾",
+        "imageName": "litter.png"
+    },
+    {
+        "word": "second",
+        "meaning": "第二",
+        "imageName": "second.png"
+    },
+    {
+        "word": "sleeping bag",
+        "meaning": "睡袋",
+        "imageName": "sleeping bag.png"
+    },
+    {
+        "word": "together",
+        "meaning": "一起",
+        "imageName": "together.png"
+    },
+    {
+        "word": "river otters",
+        "meaning": "水獭",
+        "imageName": "river otters.png"
+    },
+    {
+        "word": "baseball",
+        "meaning": "棒球",
+        "imageName": "baseball.png"
+    },
+    {
+        "word": "crayfish",
+        "meaning": "小龙虾",
+        "imageName": "crayfish.png"
+    },
+    {
+        "word": "gardener",
+        "meaning": "园丁",
+        "imageName": "gardener.png"
+    },
+    {
+        "word": "take",
+        "meaning": "拿",
+        "imageName": "take.png"
+    },
+    {
+        "word": "bored",
+        "meaning": "无聊的",
+        "imageName": "bored.png"
+    },
+    {
+        "word": "new",
+        "meaning": "新的",
+        "imageName": "new.png"
+    },
+    {
+        "word": "creamy",
+        "meaning": "奶油",
+        "imageName": "creamy.png"
+    },
+    {
+        "word": "crash",
+        "meaning": "碰撞",
+        "imageName": "crash.png"
+    },
+    {
+        "word": "eye",
+        "meaning": "眼睛",
+        "imageName": "eye.png"
+    },
+    {
+        "word": "learn",
+        "meaning": "学习",
+        "imageName": "learn.png"
+    },
+    {
+        "word": "maze",
+        "meaning": "迷宫",
+        "imageName": "maze.png"
+    },
+    {
+        "word": "fresh water",
+        "meaning": "淡水",
+        "imageName": "fresh water.png"
+    },
+    {
+        "word": "tube",
+        "meaning": "管子",
+        "imageName": "tube.png"
+    },
+    {
+        "word": "sprout",
+        "meaning": "发芽",
+        "imageName": "sprout.png"
+    },
+    {
+        "word": "eat",
+        "meaning": "吃",
+        "imageName": "eat.png"
+    },
+    {
+        "word": "ran",
+        "meaning": "跑",
+        "imageName": "ran.png"
+    },
+    {
+        "word": "floor",
+        "meaning": "地面",
+        "imageName": "floor.png"
+    },
+    {
+        "word": "pine",
+        "meaning": "松树",
+        "imageName": "pine.png"
+    },
+    {
+        "word": "helper",
+        "meaning": "帮手",
+        "imageName": "helper.png"
+    },
+    {
+        "word": "wet",
+        "meaning": "湿的",
+        "imageName": "wet.png"
+    },
+    {
+        "word": "salad",
+        "meaning": "沙拉",
+        "imageName": "salad.png"
+    },
+    {
+        "word": "hill",
+        "meaning": "爬坡道",
+        "imageName": "hill.png"
+    },
+    {
+        "word": "think",
+        "meaning": "思考",
+        "imageName": "think.png"
+    },
+    {
+        "word": "than",
+        "meaning": "比",
+        "imageName": "than.png"
+    },
+    {
+        "word": "tail",
+        "meaning": "尾巴",
+        "imageName": "tail.png"
+    },
+    {
+        "word": "superhero",
+        "meaning": "超级英雄",
+        "imageName": "superhero.png"
+    },
+    {
+        "word": "straight",
+        "meaning": "直的",
+        "imageName": "straight.png"
+    },
+    {
+        "word": "cranberry",
+        "meaning": "蔓越莓",
+        "imageName": "cranberry.png"
+    },
+    {
+        "word": "basketball",
+        "meaning": "篮球",
+        "imageName": "basketball.png"
+    },
+    {
+        "word": "acting",
+        "meaning": "表演",
+        "imageName": "acting.png"
+    },
+    {
+        "word": "monkey",
+        "meaning": "猴",
+        "imageName": "monkey.png"
+    },
+    {
+        "word": "spooky",
+        "meaning": "幽灵般的",
+        "imageName": "spooky.png"
+    },
+    {
+        "word": "tiger shark",
+        "meaning": "老虎鲨",
+        "imageName": "tiger shark.png"
+    },
+    {
+        "word": "Pree",
+        "meaning": "preee",
+        "imageName": "Pree.png"
+    },
+    {
+        "word": "idea",
+        "meaning": "主意",
+        "imageName": "idea.png"
+    },
+    {
+        "word": "pitcher",
+        "meaning": "投手",
+        "imageName": "pitcher.png"
+    },
+    {
+        "word": "pull",
+        "meaning": "拉",
+        "imageName": "pull.png"
+    },
+    {
+        "word": "bicycle",
+        "meaning": "自行车",
+        "imageName": "bicycle.png"
+    },
+    {
+        "word": "cape",
+        "meaning": "岬",
+        "imageName": "cape.png"
+    },
+    {
+        "word": "bus stop",
+        "meaning": "巴士站",
+        "imageName": "bus stop.png"
+    },
+    {
+        "word": "busy",
+        "meaning": "忙碌的",
+        "imageName": "busy.png"
+    },
+    {
+        "word": "bat",
+        "meaning": "蝙蝠",
+        "imageName": "bat.png"
+    },
+    {
+        "word": "log",
+        "meaning": "日志",
+        "imageName": "log.png"
+    },
+    {
+        "word": "hobby",
+        "meaning": "爱好",
+        "imageName": "hobby.png"
+    },
+    {
+        "word": "cucumber",
+        "meaning": "黄瓜",
+        "imageName": "cucumber.png"
+    },
+    {
+        "word": "lemon",
+        "meaning": "柠檬",
+        "imageName": "lemon.png"
+    },
+    {
+        "word": "seal",
+        "meaning": "海豹",
+        "imageName": "seal.png"
+    },
+    {
+        "word": "fruit",
+        "meaning": "水果",
+        "imageName": "fruit.png"
+    },
+    {
+        "word": "pet",
+        "meaning": "宠物",
+        "imageName": "pet.png"
+    },
+    {
+        "word": "spill",
+        "meaning": "洒",
+        "imageName": "spill.png"
+    },
+    {
+        "word": "grind",
+        "meaning": "研磨",
+        "imageName": "grind.png"
+    },
+    {
+        "word": "clothing",
+        "meaning": "衣服",
+        "imageName": "clothing.png"
+    },
+    {
+        "word": "lead",
+        "meaning": "带领",
+        "imageName": "lead.png"
+    },
+    {
+        "word": "skateboard",
+        "meaning": "滑板",
+        "imageName": "skateboard.png"
+    },
+    {
+        "word": "pizza",
+        "meaning": "比萨",
+        "imageName": "pizza.png"
+    },
+    {
+        "word": "soap",
+        "meaning": "肥皂",
+        "imageName": "soap.png"
+    },
+    {
+        "word": "hob",
+        "meaning": "hob",
+        "imageName": "hob.png"
+    },
+    {
+        "word": "warm",
+        "meaning": "温暖的",
+        "imageName": "warm.png"
+    },
+    {
+        "word": "anyway",
+        "meaning": "反正",
+        "imageName": "anyway.png"
+    },
+    {
+        "word": "smell",
+        "meaning": "闻",
+        "imageName": "smell.png"
+    },
+    {
+        "word": "try",
+        "meaning": "尝试",
+        "imageName": "try.png"
+    },
+    {
+        "word": "ride",
+        "meaning": "骑",
+        "imageName": "ride.png"
+    },
+    {
+        "word": "birdseed",
+        "meaning": "鸟类",
+        "imageName": "birdseed.png"
+    },
+    {
+        "word": "fighting",
+        "meaning": "斗争",
+        "imageName": "fighting.png"
+    },
+    {
+        "word": "miss",
+        "meaning": "错过",
+        "imageName": "miss.png"
+    },
+    {
+        "word": "weigh",
+        "meaning": "称重",
+        "imageName": "weigh.png"
+    },
+    {
+        "word": "form",
+        "meaning": "形式",
+        "imageName": "form.png"
+    },
+    {
+        "word": "art",
+        "meaning": "艺术",
+        "imageName": "art.png"
+    },
+    {
+        "word": "job",
+        "meaning": "工作",
+        "imageName": "job.png"
+    },
+    {
+        "word": "fox",
+        "meaning": "狐狸",
+        "imageName": "fox.png"
+    },
+    {
+        "word": "lily pad",
+        "meaning": "蕸",
+        "imageName": "lily pad.png"
+    },
+    {
+        "word": "toilet",
+        "meaning": "洗手间",
+        "imageName": "toilet.png"
+    },
+    {
+        "word": "lunch",
+        "meaning": "午餐",
+        "imageName": "lunch.png"
+    },
+    {
+        "word": "write",
+        "meaning": "写",
+        "imageName": "write.png"
+    },
+    {
+        "word": "trash",
+        "meaning": "垃圾",
+        "imageName": "trash.png"
+    },
+    {
+        "word": "piece",
+        "meaning": "片",
+        "imageName": "piece.png"
+    },
+    {
+        "word": "someone",
+        "meaning": "有人",
+        "imageName": "someone.png"
+    },
+    {
+        "word": "puppy",
+        "meaning": "小狗",
+        "imageName": "puppy.png"
+    },
+    {
+        "word": "strawberry",
+        "meaning": "草莓",
+        "imageName": "strawberry.png"
+    },
+    {
+        "word": "hairy",
+        "meaning": "毛茸茸",
+        "imageName": "hairy.png"
+    },
+    {
+        "word": "egg",
+        "meaning": "蛋",
+        "imageName": "egg.png"
+    },
+    {
+        "word": "more",
+        "meaning": "更多的",
+        "imageName": "more.png"
+    },
+    {
+        "word": "brown",
+        "meaning": "棕色的",
+        "imageName": "brown.png"
+    },
+    {
+        "word": "backyard",
+        "meaning": "后院",
+        "imageName": "backyard.png"
+    },
+    {
+        "word": "stripe",
+        "meaning": "条纹",
+        "imageName": "stripe.png"
+    },
+    {
+        "word": "swim",
+        "meaning": "游泳",
+        "imageName": "swim.png"
+    },
+    {
+        "word": "bus",
+        "meaning": "公共汽车",
+        "imageName": "bus.png"
+    },
+    {
+        "word": "sand",
+        "meaning": "沙",
+        "imageName": "sand.png"
+    },
+    {
+        "word": "squeeze",
+        "meaning": "挤",
+        "imageName": "squeeze.png"
+    },
+    {
+        "word": "pajamas",
+        "meaning": "睡衣",
+        "imageName": "pajamas.png"
+    },
+    {
+        "word": "both",
+        "meaning": "两个都",
+        "imageName": "both.png"
+    },
+    {
+        "word": "ocean",
+        "meaning": "海洋",
+        "imageName": "ocean.png"
+    },
+    {
+        "word": "truck",
+        "meaning": "卡车",
+        "imageName": "truck.png"
+    },
+    {
+        "word": "my",
+        "meaning": "我的",
+        "imageName": "my.png"
+    },
+    {
+        "word": "stage",
+        "meaning": "阶段",
+        "imageName": "stage.png"
+    },
+    {
+        "word": "long",
+        "meaning": "长的",
+        "imageName": "long.png"
+    },
+    {
+        "word": "quarter 3",
+        "meaning": "第三季度",
+        "imageName": "quarter 3.png"
+    },
+    {
+        "word": "explore",
+        "meaning": "探索",
+        "imageName": "explore.png"
+    },
+    {
+        "word": "night",
+        "meaning": "夜晚",
+        "imageName": "night.png"
+    },
+    {
+        "word": "say",
+        "meaning": "说",
+        "imageName": "say.png"
+    },
+    {
+        "word": "grub",
+        "meaning": "g",
+        "imageName": "grub.png"
+    },
+    {
+        "word": "hay",
+        "meaning": "干草",
+        "imageName": "hay.png"
+    },
+    {
+        "word": "dried",
+        "meaning": "干",
+        "imageName": "dried.png"
+    },
+    {
+        "word": "otter",
+        "meaning": "獭",
+        "imageName": "otter.png"
+    },
+    {
+        "word": "belly",
+        "meaning": "腹部",
+        "imageName": "belly.png"
+    },
+    {
+        "word": "munch",
+        "meaning": "munch",
+        "imageName": "munch.png"
+    },
+    {
+        "word": "bill",
+        "meaning": "账单",
+        "imageName": "bill.png"
+    },
+    {
+        "word": "third",
+        "meaning": "第三",
+        "imageName": "third.png"
+    },
+    {
+        "word": "hunt",
+        "meaning": "打猎",
+        "imageName": "hunt.png"
+    },
+    {
+        "word": "table",
+        "meaning": "桌子",
+        "imageName": "table.png"
+    },
+    {
+        "word": "bush",
+        "meaning": "衬套",
+        "imageName": "bush.png"
+    },
+    {
+        "word": "style",
+        "meaning": "风格",
+        "imageName": "style.png"
+    },
+    {
+        "word": "earthquake",
+        "meaning": "地震",
+        "imageName": "earthquake.png"
+    },
+    {
+        "word": "under",
+        "meaning": "在下面",
+        "imageName": "under.png"
+    },
+    {
+        "word": "teat",
+        "meaning": "乳头",
+        "imageName": "teat.png"
+    },
+    {
+        "word": "whole",
+        "meaning": "所有的",
+        "imageName": "whole.png"
+    },
+    {
+        "word": "steel",
+        "meaning": "钢",
+        "imageName": "steel.png"
+    },
+    {
+        "word": "plan",
+        "meaning": "计划",
+        "imageName": "plan.png"
+    },
+    {
+        "word": "pumpkin",
+        "meaning": "南瓜",
+        "imageName": "pumpkin.png"
+    },
+    {
+        "word": "play",
+        "meaning": "玩",
+        "imageName": "play.png"
+    },
+    {
+        "word": "crown",
+        "meaning": "王冠",
+        "imageName": "crown.png"
+    },
+    {
+        "word": "squish",
+        "meaning": "挤压",
+        "imageName": "squish.png"
+    },
+    {
+        "word": "police",
+        "meaning": "警察",
+        "imageName": "police.png"
+    },
+    {
+        "word": "gumdrop",
+        "meaning": "gumdrop",
+        "imageName": "gumdrop.png"
+    },
+    {
+        "word": "story",
+        "meaning": "故事",
+        "imageName": "story.png"
+    },
+    {
+        "word": "word",
+        "meaning": "单词",
+        "imageName": "word.png"
+    },
+    {
+        "word": "freezer",
+        "meaning": "冰箱",
+        "imageName": "freezer.png"
+    },
+    {
+        "word": "beard",
+        "meaning": "胡须",
+        "imageName": "beard.png"
+    },
+    {
+        "word": "what",
+        "meaning": "什么",
+        "imageName": "what.png"
+    },
+    {
+        "word": "fur",
+        "meaning": "毛皮",
+        "imageName": "fur.png"
+    },
+    {
+        "word": "strange",
+        "meaning": "奇怪的",
+        "imageName": "strange.png"
+    },
+    {
+        "word": "horn",
+        "meaning": "喇叭",
+        "imageName": "horn.png"
+    },
+    {
+        "word": "favorite",
+        "meaning": "最喜欢的",
+        "imageName": "favorite.png"
+    },
+    {
+        "word": "front",
+        "meaning": "正面",
+        "imageName": "front.png"
+    },
+    {
+        "word": "near",
+        "meaning": "靠近",
+        "imageName": "near.png"
+    },
+    {
+        "word": "Easter",
+        "meaning": "复活节",
+        "imageName": "Easter.png"
+    },
+    {
+        "word": "child",
+        "meaning": "孩子",
+        "imageName": "child.png"
+    },
+    {
+        "word": "bear",
+        "meaning": "熊",
+        "imageName": "bear.png"
+    },
+    {
+        "word": "hide",
+        "meaning": "隐藏",
+        "imageName": "hide.png"
+    },
+    {
+        "word": "compare",
+        "meaning": "比较",
+        "imageName": "compare.png"
+    },
+    {
+        "word": "miller",
+        "meaning": "磨坊主",
+        "imageName": "miller.png"
+    },
+    {
+        "word": "picnic",
+        "meaning": "野餐",
+        "imageName": "picnic.png"
+    },
+    {
+        "word": "full",
+        "meaning": "满的",
+        "imageName": "full.png"
+    },
+    {
+        "word": "rain",
+        "meaning": "雨",
+        "imageName": "rain.png"
+    },
+    {
+        "word": "instead",
+        "meaning": "反而",
+        "imageName": "instead.png"
+    },
+    {
+        "word": "fish",
+        "meaning": "鱼",
+        "imageName": "fish.png"
+    },
+    {
+        "word": "service dog",
+        "meaning": "服务犬",
+        "imageName": "service dog.png"
+    },
+    {
+        "word": "corral",
+        "meaning": "畜栏",
+        "imageName": "corral.png"
+    },
+    {
+        "word": "pie",
+        "meaning": "馅饼",
+        "imageName": "pie.png"
+    },
+    {
+        "word": "hop",
+        "meaning": "跳",
+        "imageName": "hop.png"
+    },
+    {
+        "word": "tank",
+        "meaning": "坦克",
+        "imageName": "tank.png"
+    },
+    {
+        "word": "pants",
+        "meaning": "裤子",
+        "imageName": "pants.png"
+    },
+    {
+        "word": "rainbow",
+        "meaning": "彩虹",
+        "imageName": "rainbow.png"
+    },
+    {
+        "word": "come off",
+        "meaning": "脱落",
+        "imageName": "come off.png"
+    },
+    {
+        "word": "soup",
+        "meaning": "汤",
+        "imageName": "soup.png"
+    }
+]
+}]
