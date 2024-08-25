@@ -373,11 +373,6 @@
         "imageName": "make.png"
     },
     {
-        "word": ".DS_Store",
-        "meaning": ".ds_store",
-        "imageName": ".DS_Store"
-    },
-    {
         "word": "planet",
         "meaning": "行星",
         "imageName": "planet.png"
@@ -389,7 +384,7 @@
     },
     {
         "word": "ice cream",
-        "meaning": "ICE_1",
+        "meaning": "冰激凌",
         "imageName": "ice_1.png"
     },
     {
@@ -1773,9 +1768,9 @@
         "imageName": "want.png"
     },
     {
-        "word": "ro",
-        "meaning": "ro",
-        "imageName": "ro.png"
+        "word": "robot",
+        "meaning": "robot",
+        "imageName": "robot.png"
     },
     {
         "word": "shoes",

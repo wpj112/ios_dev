@@ -75,4 +75,5 @@ struct WordRecode: Identifiable, Codable {
     var reviewCount: Int // 背诵次数
     var corectCount: Int // 正确次数
     var state: String //背诵状态
+    var lastRviewTime: String //背诵状态
 }

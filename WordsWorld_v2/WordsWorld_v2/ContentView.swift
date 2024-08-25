@@ -26,7 +26,7 @@ struct WordLearningApp: View {
     @State private var words: [Word] = []
     @State private var razLevels: [String] = []
     @State private var selectedRazLevel = "raz_C"
-    @State private var selectedWordCount = 10
+    @State private var selectedWordCount = 20
     @State private var learningSessions: [LearningSession] = []
 
     var body: some View {
@@ -53,7 +53,7 @@ struct WordLearningApp: View {
                     HStack{
                         Text("Set word count:")
                         Spacer()
-                        Stepper(value: $selectedWordCount, in: 10...50, step: 10) {
+                        Stepper(value: $selectedWordCount, in: 20...200, step: 20) {
                             Text("\(selectedWordCount) words")
                         }
                     }.frame(maxWidth: .infinity,maxHeight: 50, alignment: .leading) // 使 HStack 左对齐
@@ -149,10 +149,15 @@ struct WordLearningView: View {
     @State private var options: [Word] = []
     @State private var selectedAnswer: String? = nil
     @State private var showResult = false
+    @State private var showChinese = false
     @State private var isCorrect = false
     @State private var tryCount = 0
     @State private var progress = 0
     @State private var synthesizer = AVSpeechSynthesizer()
+    @State private var totalCorrectCount : Int = 0
+    @State private var totalTryCount : Int = 0
+    @State private var showConfirmationDialog = false
+    @State private var isButtonDisabled = false
     @EnvironmentObject var wordManager: WordManager
     @Environment(\.presentationMode) var presentationMode
     var words: [Word] // 从上一级页面传入的单词数据
@@ -183,11 +188,11 @@ struct WordLearningView: View {
                             .padding()
                     }
                 }.frame(alignment: .topLeading)
-                    Text("has reviewed count: \(wordManager.getReviewCount(for: filteredWords[currentIndex]))")
-                        .font(.title3)
+//                    Text("has reviewed count: \(wordManager.getReviewCount(for: filteredWords[currentIndex]))")
+//                        .font(.title3)
                     
                 // 选项的九宫格布局
-                LazyVGrid(columns: gridColumns, spacing: 10) {
+                LazyVGrid(columns: gridColumns, spacing: 0) {
                     ForEach(options, id: \.id) { option in
                         Button(action: {
                             selectedAnswer = option.meaning
@@ -205,26 +210,35 @@ struct WordLearningView: View {
                                         .scaleEffect(0.85)
                                         .clipShape(Top80PercentShape()) // 只显示上半部分
                                         //.frame(alignment: .topLeading) // 控制图片的总高度
-                            //            .frame(height: 120 * 0.75) // 只显示上部 75%
+                                        .frame(height: 160) // 只显示上部 75%
                              //           .clipped() // 裁剪图片
                                         .cornerRadius(5.0)
-//                                    Text(option.meaning)
-//                                        .padding(.top, 5)
+//                                    if showChinese {
+//                                        Text(option.meaning)
+//                                    }
                                 }
                             }
 //                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .frame(height: 160)
                             .cornerRadius(10)
                             .padding(.leading, 5)
-                            .padding(.trailing, 5)
                             .shadow(color: .gray, radius: 6, x: 0, y: 3)
                         }
-                        .disabled(showResult)
+                        .disabled(showResult || isButtonDisabled)
                     }
                 }
                 .padding()
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(10)
 
+//                Button(action: {
+//                    showChinese.toggle() // 切换文本的显示状态
+//                }) {
+//                    Text(showChinese ? "hide Chinese" : "Show Chinese")
+//                        .background(Color.blue)
+//                        .foregroundColor(.white)
+//                        .cornerRadius(10)
+//                }
 
                 // 显示当前进度
                 Text("Progress: \(currentIndex + 1)/\(filteredWords.count)")
@@ -233,19 +247,36 @@ struct WordLearningView: View {
                 if showResult {
                     Text(isCorrect ? "Correct!" : "Wrong. The correct answer is \(correctAnswer.meaning).")
                         .foregroundColor(isCorrect ? .green : .red)
-                        .padding()
                     
-                    Button("Next") {
-                        goToNextWord()
+                    if !isCorrect {
+                        Button(action: {
+                            goToNextWord()
+                        }) {
+                            HStack {
+                                Text("Next")
+                                Image(systemName: "arrowshape.right.fill") // 使用 SF Symbols 中的图标
+                            }
+                        }.padding(.top,5)
                     }
-                    .padding()
                 }
             } else if filteredWords.isEmpty {
                 Text("No words available. Please check your word file.")
             } else {
                 Text("You've completed all words!")
-                Button("Finish") {
+                    .frame(alignment: .leading)
+                Text("total correct count: \(totalCorrectCount)")
+                    .frame(alignment: .leading)
+                Text("total try count: \(totalTryCount)")
+                    .frame(alignment: .leading)
+                Text("total review words: \(selectedWordCount)")
+                    .frame(alignment: .leading)
+                Button(action:{
                     endSession()
+                }) {
+                    Text("finish")
+                        .font(.title)
+                    Image(systemName: "arrow.uturn.backward.square.fill") // 使用 SF Symbols 中的图标
+                        .font(.title)
                 }
                 .padding()
             }
@@ -263,6 +294,26 @@ struct WordLearningView: View {
         .navigationTitle("Learning")
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .navigationBarBackButtonHidden(true) // 隐藏默认的返回按钮
+           .toolbar {
+               ToolbarItem(placement: .navigationBarLeading) {
+                   Button(action: {
+                       showConfirmationDialog = true
+                   }) {
+                       Image(systemName: "chevron.left")
+                       Text("Back")
+                   }
+               }
+           }
+           .alert(isPresented: $showConfirmationDialog) {
+               Alert(
+                   title: Text("Are you sure you want to go back?"),
+                   primaryButton: .destructive(Text("Yes")) {
+                       presentationMode.wrappedValue.dismiss()
+                   },
+                   secondaryButton: .cancel()
+               )
+           }
     }
     // 从原始数组中随机选择指定数量的元素
     private func selectRandomWords(from array: [Word], count: Int) -> [Word] {
@@ -285,17 +336,23 @@ struct WordLearningView: View {
         isCorrect = selectedAnswer == correctAnswer.meaning
         if isCorrect {
             speak(word:"good")
+            showResult = true
             wordManager.incrementCorrectCount(for: filteredWords[currentIndex])
+            totalCorrectCount += 1;
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 goToNextWord()
             }
         }else {
+            wordManager.incrementReviewCount(for: filteredWords[currentIndex])
             tryCount += 1;
-            if(tryCount >= 3){
+            totalTryCount += 1;
+            if(tryCount >= 2){
+                speak(word:"Ow no")
                 showResult = true
+            }else {
+                speak(word:"try again")
             }
-            speak(word:"try again")
         }
 
     }
@@ -304,9 +361,7 @@ struct WordLearningView: View {
         selectedAnswer = nil
         showResult = false
         tryCount = 0
-        //if(currentIndex < filteredWords.count) {
-            wordManager.incrementReviewCount(for: filteredWords[currentIndex])
-        //}
+        wordManager.incrementReviewCount(for: filteredWords[currentIndex])
         currentIndex += 1
         if currentIndex < filteredWords.count {
             generateOptions()
@@ -341,6 +396,8 @@ struct WordLearningView: View {
 
 class WordManager: ObservableObject {
     @Published var words: [WordRecode] = []
+    var reviewCount : Int = 0
+    var correcCount : Int = 0
     private let fileName = "words_record.json"
 
     init() {
@@ -367,11 +424,14 @@ class WordManager: ObservableObject {
         }
         // 如果文件不存在或数据解码失败，加载默认数据
         words = [
-            WordRecode(text: "Hello", reviewCount: 0, corectCount: 0, state: "no"),
-            WordRecode(text: "World", reviewCount: 0, corectCount: 0, state: "no")
+            WordRecode(text: "Hello", reviewCount: 0, corectCount: 0, state: "no", lastRviewTime: "1970-01-01"),
+            WordRecode(text: "World", reviewCount: 0, corectCount: 0, state: "no", lastRviewTime: "1970-01-01")
         ]
+        reviewCount = words.count;
     }
-
+    func getReviewCount() -> Int{
+        return reviewCount
+    }
     // 将单词数据保存到文件
     func saveWordsToFile() {
         let fileURL = getFilePath()
@@ -391,20 +451,28 @@ class WordManager: ObservableObject {
 
     // 更新背诵次数并保存
     func incrementReviewCount(for word: Word) {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd" // 指定日期格式
+        let currentDate = Date()
+        let dateString = formatter.string(from:currentDate)
         if let index = words.firstIndex(where: { $0.text == word.word }) {
             words[index].reviewCount += 1
         }else {
-            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 0, state: "no"))
+            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 0, state: "no", lastRviewTime: dateString))
         }
         saveWordsToFile()
     }
     
     // 更新正确次数并保存
     func incrementCorrectCount(for word: Word) {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd" // 指定日期格式
+        let currentDate = Date()
+        let dateString = formatter.string(from: currentDate)
         if let index = words.firstIndex(where: { $0.text == word.word }) {
             words[index].corectCount += 1
         }else {
-            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 1, state: "no"))
+            words.append(WordRecode(text: word.word, reviewCount: 1, corectCount: 1, state: "no", lastRviewTime: dateString))
         }
         saveWordsToFile()
     }
